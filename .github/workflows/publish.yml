@@ -74,7 +74,7 @@ jobs:
           if [ -n "$(find .deploy -type f -print -quit)" ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
       - name: Upload webspace deletion candidates report
         if: hashFiles('.deploy-delete-candidates.txt') != ''
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: webspace-delete-candidates
           path: .deploy-delete-candidates.txt
