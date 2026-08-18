@@ -13,5 +13,5 @@
     "feeds": "npm run build && node dist/cli.js feeds",
     "all": "npm run build && node dist/cli.js all"
   },
-  "devDependencies": { "@types/node": "^26.2.0", "typescript": "^5.8.0" }
+  "devDependencies": { "@types/node": "^26.2.0", "typescript": "^7.0.2" }
 }
