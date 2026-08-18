@@ -141,8 +141,8 @@ async function restorePublished(meta:PackageBuild, archive:string) {
 async function zip(folder:string, target:string, progress:(percent:number)=>void) { await mkdir(dirname(target),{recursive:true}); await new Promise<void>((resolve,reject)=>{ const child=spawn('7z',['a','-tzip','-mm=Deflate','-mx=6','-bso0','-bsp1',target,'.'],{cwd:folder}); let errors=''; const parse=(chunk:Buffer)=>{ const text=chunk.toString(); for(const match of text.matchAll(/(\d+)%/g)) progress(Number(match[1])); }; child.stdout.on('data',parse); child.stderr.on('data',(chunk:Buffer)=>{ errors+=chunk.toString(); parse(chunk); }); child.on('error',reject); child.on('close',code=>code===0?resolve():reject(new Error(errors.trim()||`7z wurde mit Code ${code} beendet`))); }); }
 async function copyRules(downloaded:string, work:string, rules:Updater['install']) {
   const manifestModes=new Map<string,'U'|'G'>(), ext=extname(downloaded).toLowerCase(); const src=join(work,'source'); await mkdir(src,{recursive:true});
-  if(ext==='.zip'||ext==='.tar'||ext==='.gz'||ext==='.xz') await exec('tar',['-xf',downloaded,'-C',src]);
-  else if(ext==='.7z') await exec('7z',['x',downloaded,`-o${src}`,'-y']);
+  if(ext==='.zip'||ext==='.7z') await exec('7z',['x',downloaded,`-o${src}`,'-y']);
+  else if(ext==='.tar'||ext==='.gz'||ext==='.xz') await exec('tar',['-xf',downloaded,'-C',src]);
   else await cp(downloaded,join(src,basename(downloaded)));
   const sourceFiles=[] as string[]; for(const file of await readdir(src,{recursive:true}) as string[]) if((await stat(join(src,file))).isFile()) sourceFiles.push(file);
   for(const rule of rules) {
