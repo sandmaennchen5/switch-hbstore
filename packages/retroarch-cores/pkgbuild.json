@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores",
-  "title": "RetroArch – zusätzliche Cores",
+  "title": "RetroArch (Cores)",
   "author": "Libretro",
   "description": "Alle zusätzlichen Nintendo-Switch-Cores inklusive der zugehörigen Info-Dateien.",
   "details": "Optionales Ergänzungspaket. Es installiert die zusätzlichen Cores und ihre Metadaten unter retroarch/info. RetroArch selbst, Assets, Shader und Datenbanken sind im Hauptpaket enthalten.",

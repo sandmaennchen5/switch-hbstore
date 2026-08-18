@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "title": "RetroArch Nightly – zusätzliche Cores",
+  "title": "RetroArch (nightly)(Cores)",
   "author": "Libretro",
   "description": "Alle zusätzlichen Nintendo-Switch-Nightly-Cores inklusive der zugehörigen Info-Dateien.",
   "details": "Optionales Ergänzungspaket für RetroArch Nightly. Es installiert die zusätzlichen Cores und ihre Metadaten unter retroarch/info.",
