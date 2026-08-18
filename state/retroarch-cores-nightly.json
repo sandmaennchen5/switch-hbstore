@@ -97,11 +97,11 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-08-18T14:07:20.977Z",
+  "downloadedAt": "2026-08-18T16:06:14.017Z",
   "updated": "18/08/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-08-18.zip",
-  "size": 954250871,
+  "size": 954250864,
   "extractedSize": 2649480457,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
@@ -1000,7 +1000,7 @@
     "U: retroarch/cores/yabause_libretro_libnx.nro"
   ],
   "finalized": true,
-  "buildKey": "d128b3cdc2fb6bf439c153e2cf0e4720fc6a2f2cb3024c8f2643c4f8a3f12d6c",
-  "md5": "981e0cf4dde219f7de6d643c0e5aca37",
-  "sha256": "2a25185591fbc7fff6b211329949379c6070a0c1c3c2dab08e611e13c2d9748a"
+  "buildKey": "9e080fb66a6854c54df8171957a9c8744960ef1f7e1dbad7abb5646728ff0eac",
+  "md5": "881281c1fc3e4f03c93d4b090f38e048",
+  "sha256": "e8c637f532ac9acb097cc990c5890065b527ffc1054f5da9ac86a237469059cf"
 }

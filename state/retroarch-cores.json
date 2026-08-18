@@ -2,11 +2,11 @@
   "id": "retroarch-cores",
   "version": "1.22.2",
   "changelog": [],
-  "downloadedAt": "2026-08-18T14:05:26.554Z",
+  "downloadedAt": "2026-08-18T16:03:53.029Z",
   "updated": "20/11/2025",
   "sourceUrl": "https://buildbot.libretro.com/stable/1.22.2/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores/retroarch-cores-1.22.2.zip",
-  "size": 896869101,
+  "size": 896869094,
   "extractedSize": 2730938306,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
@@ -851,7 +851,7 @@
     "U: retroarch/cores/yabause_libretro_libnx.nro"
   ],
   "finalized": true,
-  "buildKey": "f2de9ad76b297a0cbf78e825e1e78dcc2bd8f0c571c9297619652cfa05aaf663",
-  "md5": "b9d5540090fb5382c4c547112384b0a0",
-  "sha256": "b239773c04bf12c098047ff701b6990b3985e52c088a7e7aca60e11770e10afd"
+  "buildKey": "70caf710f50468c056066dfc0fb5ad40c79470ddd86187021d34246541cb2da5",
+  "md5": "6bf87bf423260dd833f756c73648fd1d",
+  "sha256": "0c915a2867d073f0e853fa927efe46fcd7741c38d14081a0b9ddad55dc9bb76d"
 }
