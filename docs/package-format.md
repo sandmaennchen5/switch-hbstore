@@ -135,6 +135,24 @@ Für erfolgreiche Entwicklungsbuilds eines Branches wird das neueste noch nicht 
 
 Mit `source.workflow` kann optional auf den Namen oder Dateinamen eines Workflows eingeschränkt werden. `source.versionPattern` prüft nur den durch `*` erkannten Teil, beispielsweise `"\\d+"` für eine rein numerische Buildnummer. `source.version` überschreibt bei Bedarf die erkannte Version.
 
+### GitHub-Commits als Changelog
+
+Commit-Nachrichten können unabhängig vom Quelltyp als Changelog verwendet werden:
+
+```json
+{
+  "changelog": {
+    "type": "github-commits",
+    "owner": "OWNER",
+    "repo": "REPOSITORY",
+    "branch": "main",
+    "commits": 10
+  }
+}
+```
+
+`commits` darf zwischen 1 und 30 liegen und ist standardmäßig 10. Bei einem GitHub-Actions-Artifact endet die Liste exakt am Commit des ausgewählten Builds. Bei anderen Quellen wird vom konfigurierten Branch aus gelesen.
+
 ### Direkter HTTP-Download
 
 ```json

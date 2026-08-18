@@ -6,6 +6,7 @@
   "changelog": {
     "url": "https://raw.githubusercontent.com/libretro/RetroArch/master/CHANGES.md",
     "section": "version",
+    "history": 10,
     "excludeFile": "changelog/retroarch-exclude.json"
   },
   "install": [

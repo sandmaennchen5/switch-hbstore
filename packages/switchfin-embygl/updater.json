@@ -8,6 +8,13 @@
     "artifact": "Switchfin-NintendoSwitch-*",
     "versionPattern": "\\d+"
   },
+  "changelog": {
+    "type": "github-commits",
+    "owner": "dragonflylee",
+    "repo": "switchfin",
+    "branch": "emby",
+    "commits": 10
+  },
   "install": [
     { "from": "*.nro", "to": "switch/Switchfin/Switchfin.nro" }
   ]
