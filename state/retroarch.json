@@ -2,11 +2,11 @@
   "id": "retroarch",
   "version": "1.22.2",
   "changelog": [],
-  "downloadedAt": "2026-08-18T14:03:31.872Z",
+  "downloadedAt": "2026-08-18T20:16:00.391Z",
   "updated": "20/11/2025",
   "sourceUrl": "https://buildbot.libretro.com/stable/1.22.2/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch/retroarch-1.22.2.zip",
-  "size": 178339561,
+  "size": 178339758,
   "extractedSize": 451825945,
   "installFiles": [
     "retroarch.jpg",
@@ -13141,7 +13141,7 @@
     "U: retroarch/assets/glui/video.png"
   ],
   "finalized": true,
-  "buildKey": "dbf2992275d52a49507cdb087047bd0873152b0a76a383d2243997047ad30134",
-  "md5": "ce15b60a65236142d27de4420f530263",
-  "sha256": "6c7ecce0704ca2d0bf6bd2cc8217e2a215f7d24ded1956c830d8f12b5d0f3048"
+  "buildKey": "74c21e0a5cd57cfa2f9d3e51edada41f7ecc5fa2e5bb78445ca8b480d5075b4d",
+  "md5": "a00b7fa9b91d80ea8541291684cc53ce",
+  "sha256": "65fe22aeccf36b410736535d5f657f3b1974aa60134db3c3751e4740936d9fd7"
 }

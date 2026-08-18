@@ -14,11 +14,11 @@
     "![download](https://img.shields.io/github/downloads/dragonflylee/switchfin/0.9.3/total?label=Downloads)",
     "Full Changelog**: https://github.com/dragonflylee/switchfin/compare/0.9.2...0.9.3"
   ],
-  "downloadedAt": "2026-08-18T14:08:02.550Z",
+  "downloadedAt": "2026-08-18T20:20:26.866Z",
   "updated": "27/07/2026",
   "sourceUrl": "https://github.com/dragonflylee/switchfin/releases/download/0.9.3/Switchfin.nro",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin/switchfin-0.9.3.zip",
-  "size": 13809200,
+  "size": 13809246,
   "extractedSize": 28582071,
   "installFiles": [
     "switch/Switchfin/Switchfin.nro"
@@ -27,7 +27,7 @@
     "U: switch/Switchfin/Switchfin.nro"
   ],
   "finalized": true,
-  "buildKey": "8333d62984d44bf74a0934a0018f9252442ef8629f2b737e57dc20cb42ead7f2",
-  "md5": "477bbb04919cfd5d837989b6b89238af",
-  "sha256": "13a33d720590e171f42ba327c3509dea3070a7dcc5a588e6dbb936bc566af135"
+  "buildKey": "9bee7c306944085a5aaee65916424f0e7905248d1ea2a9816ea43e9ca55ea32e",
+  "md5": "2c63af418dc6bc5b472b46dd5c103062",
+  "sha256": "54cdf310f14675d43479f3a56515f0cd708d271c4759114cb0dd030156bb9b02"
 }

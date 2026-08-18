@@ -1,0 +1,32 @@
+{
+  "id": "switchfin-embydeko3d",
+  "version": "2185",
+  "changelog": [
+    "afad99a feats: Compatible with emby api",
+    "306c237 bump version 0.9.3",
+    "efae860 fix: remove unused lastProgress assignment in VideoProgressSlider constructor",
+    "c0a72dd feats: add chapter select on player view",
+    "a2bcb39 fix: change seek parameter type from int64_t to double for improved precision",
+    "2addda1 feat: add lastProgress to VideoProgressSlider for selection cancellation",
+    "30477d8 feat: add config for max nextup",
+    "75e03c7 fix: show 'Title - Language' in subtitle/audio track selector (matches Jellyfin style) (#236)",
+    "c3472a6 feat: add soft keyboard support",
+    "b126e25 i18n: sync missing translation keys across all languages"
+  ],
+  "downloadedAt": "2026-08-18T20:20:30.938Z",
+  "updated": "03/08/2026",
+  "sourceUrl": "https://nightly.link/dragonflylee/switchfin/actions/artifacts/8848209619.zip",
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin-embydeko3d/switchfin-embydeko3d-2185.zip",
+  "size": 13827714,
+  "extractedSize": 28619982,
+  "installFiles": [
+    "switch/Switchfin/Switchfin.nro"
+  ],
+  "installManifest": [
+    "U: switch/Switchfin/Switchfin.nro"
+  ],
+  "finalized": true,
+  "buildKey": "f399decae30dc89b77528fbad4ad08307a23224289a8dc9e9dbd7c65d74edf9c",
+  "md5": "32b8c1a948c07d889e04ffe6883f21f4",
+  "sha256": "9aeca95ffd24235109a55e88e577334ebf60ec4f39867ad8017edbfaf26d2947"
+}

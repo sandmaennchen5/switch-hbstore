@@ -1,0 +1,32 @@
+{
+  "id": "switchfin-embygl",
+  "version": "2185",
+  "changelog": [
+    "afad99a feats: Compatible with emby api",
+    "306c237 bump version 0.9.3",
+    "efae860 fix: remove unused lastProgress assignment in VideoProgressSlider constructor",
+    "c0a72dd feats: add chapter select on player view",
+    "a2bcb39 fix: change seek parameter type from int64_t to double for improved precision",
+    "2addda1 feat: add lastProgress to VideoProgressSlider for selection cancellation",
+    "30477d8 feat: add config for max nextup",
+    "75e03c7 fix: show 'Title - Language' in subtitle/audio track selector (matches Jellyfin style) (#236)",
+    "c3472a6 feat: add soft keyboard support",
+    "b126e25 i18n: sync missing translation keys across all languages"
+  ],
+  "downloadedAt": "2026-08-18T20:20:35.154Z",
+  "updated": "03/08/2026",
+  "sourceUrl": "https://nightly.link/dragonflylee/switchfin/actions/artifacts/8848218175.zip",
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin-embygl/switchfin-embygl-2185.zip",
+  "size": 15164463,
+  "extractedSize": 32358174,
+  "installFiles": [
+    "switch/Switchfin/Switchfin.nro"
+  ],
+  "installManifest": [
+    "U: switch/Switchfin/Switchfin.nro"
+  ],
+  "finalized": true,
+  "buildKey": "74f8f67c71873aa3fbc56774af47069797444cd59c887d6858ae198499e74a85",
+  "md5": "4f7d477c696e7ba87c167de5b229cf83",
+  "sha256": "e958e981601001cb985960d6c3ab505bb89ceef850317b3ac126edfefe94329e"
+}
