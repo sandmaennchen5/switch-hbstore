@@ -1,0 +1,12 @@
+{
+  "id": "switchfin-embydeko3d",
+  "title": "Switchfin Emby (Deko3D)",
+  "author": "dragonflylee",
+  "description": "Nintendo Switch Emby Client (Deko3D).",
+  "category": "tool",
+  "license": "Apache v2",
+  "homepage": "https://github.com/dragonflylee/switchfin/tree/emby",
+  "compatibility": { "libnx": "4.10.0-1+", "atmosphere": "1.10.0+", "firmware": "21.x.x+", "minimumAtmosphere": "", "minimumFirmware": "", "verified": true },
+  "channels": ["beta"],
+  "details": "Switchfin (Emby) ist ein Drittanbieter-PC-Player für Emby, der eine native Benutzeroberfläche bietet, um Filme und Serien zu durchsuchen und abzuspielen.\\Unterstützte Medieninhalte: Filme, Serien, Staffeln, Episoden\\Direktes Abspielen und Transkodierung"
+}

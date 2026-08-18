@@ -70,8 +70,11 @@ async function listWebPackages() {
 function validate(meta:PackageBuild, updater:Updater) {
   const errors:string[]=[]; for(const k of ['id','title','author','description','category','license'] as const) if(!meta[k] || typeof meta[k]!=='string') errors.push(`pkgbuild.${k} fehlt`);
   if(!/^[a-z0-9][a-z0-9._-]*$/i.test(meta.id||'')) errors.push('pkgbuild.id darf nur Buchstaben, Ziffern, Punkt, Unterstrich und Bindestrich enthalten');
-  if(!updater.source || !['github-release','http'].includes(updater.source.type)) errors.push('updater.source.type muss github-release oder http sein');
+  if(!updater.source || !['github-release','github-actions-artifact','http'].includes(updater.source.type)) errors.push('updater.source.type muss github-release, github-actions-artifact oder http sein');
   if(updater.source?.type==='github-release' && (!updater.source.owner || !updater.source.repo || !updater.source.asset)) errors.push('GitHub-Quelle benötigt owner, repo und asset');
+  if(updater.source?.type==='github-actions-artifact' && (!updater.source.owner || !updater.source.repo || !updater.source.artifact || !updater.source.branch)) errors.push('GitHub-Actions-Quelle benötigt owner, repo, artifact und branch');
+  if(updater.source?.type==='github-actions-artifact' && (updater.source.artifact?.match(/\*/g)||[]).length!==1) errors.push('GitHub-Actions artifact benötigt genau einen *-Platzhalter für die Version');
+  if(updater.source?.versionPattern) try { new RegExp(`^(?:${updater.source.versionPattern})$`); } catch { errors.push('source.versionPattern ist kein gültiger regulärer Ausdruck'); }
   if(updater.source?.type==='http' && !updater.source.url) errors.push('HTTP-Quelle benötigt url');
   if(updater.autoUpdate!==undefined&&typeof updater.autoUpdate!=='boolean') errors.push('updater.autoUpdate muss true oder false sein');
   if(updater.changelog && (!updater.changelog.url || !['future','version'].includes(updater.changelog.section))) errors.push('changelog benötigt url und section future oder version');
@@ -94,6 +97,20 @@ async function fetchSource(s:Source) {
     const timestamp=lastModified && !Number.isNaN(Date.parse(lastModified)) ? new Date(lastModified).toISOString().slice(0,10) : undefined;
     const detected=head.ok ? (timestamp||head.headers.get('etag')||head.headers.get('content-length')) : undefined;
     return {url:resolved.url,version:s.version||resolved.version||detected||new Date().toISOString().slice(0,10),updated:timestamp?new Date(lastModified!).toLocaleDateString('en-GB',{timeZone:'UTC'}):date(),notes:[] as string[]};
+  }
+  if(s.type==='github-actions-artifact') {
+    const headers:Record<string,string>={Accept:'application/vnd.github+json','User-Agent':'switch-hbas'}; if(process.env.GITHUB_TOKEN) headers.Authorization=`Bearer ${process.env.GITHUB_TOKEN}`;
+    const query=new URLSearchParams({branch:s.branch!,status:'success',per_page:'30'}), runsResponse=await fetch(`https://api.github.com/repos/${s.owner}/${s.repo}/actions/runs?${query}`,{headers});
+    if(!runsResponse.ok) throw new Error(`GitHub Actions API: ${runsResponse.status}`);
+    const runs=(await runsResponse.json() as any).workflow_runs||[], candidates=s.workflow?runs.filter((run:any)=>String(run.path||'').endsWith(`/${s.workflow}`)||run.name===s.workflow):runs;
+    for(const run of candidates) {
+      const artifactsResponse=await fetch(`https://api.github.com/repos/${s.owner}/${s.repo}/actions/runs/${run.id}/artifacts?per_page=100`,{headers}); if(!artifactsResponse.ok) throw new Error(`GitHub Artifacts API: ${artifactsResponse.status}`);
+      const wildcard=s.artifact!.indexOf('*'), suffixLength=s.artifact!.length-wildcard-1, matches=(await artifactsResponse.json() as any).artifacts?.map((item:any)=>({...item,detectedVersion:item.name.slice(wildcard,item.name.length-suffixLength)})).filter((item:any)=>!item.expired&&glob(item.name,s.artifact!)&&(!s.versionPattern||new RegExp(`^(?:${s.versionPattern})$`).test(item.detectedVersion)))||[], artifact=matches[0]; if(!artifact) continue;
+      const version=s.version||artifact.detectedVersion;
+      if(!version) throw new Error(`Version konnte nicht aus Artifact '${artifact.name}' gelesen werden`);
+      return {url:`https://nightly.link/${s.owner}/${s.repo}/actions/artifacts/${artifact.id}.zip`,version,updated:new Date(artifact.created_at||run.updated_at).toLocaleDateString('en-GB',{timeZone:'UTC'}),notes:[`Entwicklungsbuild aus Branch ${s.branch}`,`Commit ${String(run.head_sha||'').slice(0,7)}`]};
+    }
+    throw new Error(`Actions-Artifact '${s.artifact}' im Branch '${s.branch}' nicht gefunden`);
   }
   const api=`https://api.github.com/repos/${s.owner}/${s.repo}/releases${s.prerelease?'':'/latest'}`;
   const response=await fetch(api,{headers:{Accept:'application/vnd.github+json','User-Agent':'switch-hbas'}}); if(!response.ok) throw new Error(`GitHub API: ${response.status}`); const result:any=await response.json(), release:any=s.prerelease?result.find((r:any)=>r.prerelease):result; if(!release) throw new Error('Kein passendes GitHub-Release gefunden');

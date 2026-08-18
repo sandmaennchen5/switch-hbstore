@@ -102,7 +102,7 @@ Die Bilder werden beim Generieren in den gemeinsamen Ordner `site/packages/<id>/
 
 | Feld | Pflicht | Beschreibung |
 | --- | --- | --- |
-| `source.type` | Ja | `github-release` oder `http`. |
+| `source.type` | Ja | `github-release`, `github-actions-artifact` oder `http`. |
 | `source.owner` | Für GitHub | GitHub-Organisation oder Benutzername. |
 | `source.repo` | Für GitHub | GitHub-Repository. |
 | `source.asset` | Für GitHub | Name oder Muster eines Release-Assets. `*` ist ein Platzhalter, zum Beispiel `*switch*.zip`. |
@@ -113,6 +113,27 @@ Die Bilder werden beim Generieren in den gemeinsamen Ordner `site/packages/<id>/
 | `autoUpdate` | Nein | Bei `false` in allgemeinen Updates und `npm run all` überspringen. `npm run update -- <id>` aktualisiert das Paket trotzdem gezielt. |
 | `patchNroVersion` | Nein | Schreibt die erkannte Version in den NACP-Bereich der unter `pkgbuild.binary` angegebenen NRO. Erfordert `binary`; maximal 15 UTF-8-Bytes. |
 | `changelog` | Nein | Externe Changelog-Quelle; Details im folgenden Abschnitt. |
+
+### GitHub-Actions-Artifact
+
+Für erfolgreiche Entwicklungsbuilds eines Branches wird das neueste noch nicht abgelaufene Artifact verwendet. Ein einzelner `*`-Platzhalter im Artifact-Namen wird zugleich als Version übernommen. Der Download öffentlicher Artifacts erfolgt über nightly.link; `GITHUB_TOKEN` wird, falls vorhanden, für die GitHub-API-Abfrage verwendet.
+
+```json
+{
+  "source": {
+    "type": "github-actions-artifact",
+    "owner": "OWNER",
+    "repo": "REPOSITORY",
+    "branch": "emby",
+    "artifact": "Switchfin-NintendoSwitch-*"
+  },
+  "install": [
+    { "from": "*.nro", "to": "switch/Switchfin/Switchfin.nro" }
+  ]
+}
+```
+
+Mit `source.workflow` kann optional auf den Namen oder Dateinamen eines Workflows eingeschränkt werden. `source.versionPattern` prüft nur den durch `*` erkannten Teil, beispielsweise `"\\d+"` für eine rein numerische Buildnummer. `source.version` überschreibt bei Bedarf die erkannte Version.
 
 ### Direkter HTTP-Download
 

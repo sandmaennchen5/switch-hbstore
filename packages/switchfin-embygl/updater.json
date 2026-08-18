@@ -1,0 +1,14 @@
+{
+  "source": {
+    "type": "github-actions-artifact",
+    "owner": "dragonflylee",
+    "repo": "switchfin",
+    "branch": "emby",
+    "workflow": "build.yaml",
+    "artifact": "Switchfin-NintendoSwitch-*",
+    "versionPattern": "\\d+"
+  },
+  "install": [
+    { "from": "*.nro", "to": "switch/Switchfin/Switchfin.nro" }
+  ]
+}
