@@ -1,0 +1,59 @@
+name: Update RSS feeds
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 */3 * * *'
+  push:
+    branches: [main]
+    paths:
+      - web-packages/**
+      - src/**
+      - state/**
+      - repo.config.json
+      - package.json
+      - package-lock.json
+      - .github/workflows/rss.yml
+
+permissions:
+  contents: read
+
+concurrency:
+  group: switch-hbas-deploy
+  cancel-in-progress: false
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Generate RSS feeds
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run build && node dist/cli.js feeds
+      - name: Upload RSS feeds to all-INKL.COM
+        env:
+          FTPS_HOST: ${{ secrets.FTPS_HOST }}
+          FTPS_USER: ${{ secrets.FTPS_USER }}
+          FTPS_PASSWORD: ${{ secrets.FTPS_PASSWORD }}
+          FTPS_SERVER_DIR: ${{ secrets.FTPS_SERVER_DIR }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+          lftp <<EOF
+          set cmd:fail-exit yes
+          set ftp:ssl-force true
+          set ftp:ssl-protect-data true
+          set ftp:passive-mode true
+          set ssl:verify-certificate yes
+          set net:max-retries 8
+          set net:reconnect-interval-base 5
+          set net:reconnect-interval-max 60
+          set net:timeout 120
+          open -u "$FTPS_USER","$FTPS_PASSWORD" "ftp://$FTPS_HOST:21"
+          mirror --reverse --only-newer --parallel=1 ./site/feeds/ "$FTPS_SERVER_DIR/feeds/"
+          bye
+          EOF

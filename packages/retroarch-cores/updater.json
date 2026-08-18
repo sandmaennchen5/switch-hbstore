@@ -1,0 +1,29 @@
+{
+  "source": {
+    "type": "http",
+    "url": "https://buildbot.libretro.com/stable/*/nintendo/switch/libnx/RetroArch.7z"
+  },
+  "changelog": {
+    "url": "https://raw.githubusercontent.com/libretro/RetroArch/master/CHANGES.md",
+    "section": "version",
+    "excludeFile": "changelog/retroarch-exclude.json"
+  },
+  "install": [
+    {
+      "from": "retroarch/cores/*_libretro_libnx.nro",
+      "to": "retroarch/cores/",
+      "exclude": [
+        "retroarch/cores/nestopia_libretro_libnx.nro",
+        "retroarch/cores/snes9x_libretro_libnx.nro",
+        "retroarch/cores/mupen64plus_next_libretro_libnx.nro",
+        "retroarch/cores/gambatte_libretro_libnx.nro",
+        "retroarch/cores/mgba_libretro_libnx.nro",
+        "retroarch/cores/melonds_libretro_libnx.nro"
+      ]
+    },
+    {
+      "from": "retroarch/info/*.info",
+      "to": "retroarch/info/"
+    }
+  ]
+}

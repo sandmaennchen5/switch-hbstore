@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(\.feedback-token|.*\.json)$">
+  Require all denied
+</FilesMatch>

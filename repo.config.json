@@ -1,0 +1,10 @@
+{
+  "title": "switch-hbas",
+  "baseUrl": "https://hbas.sandybos.eu",
+  "feedbackUrl": "https://hbas.sandybos.eu/api/feedback.php",
+  "githubRepositoryUrl": "https://github.com/sandmaennchen5/switch-hbstore",
+  "githubBranch": "main",
+  "downloadCountsUrl": "https://hbas.sandybos.eu/history/files_Switch.json",
+  "generatePackagesJson": false,
+  "channels": ["stable", "beta", "nightly"]
+}

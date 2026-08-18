@@ -1,0 +1,29 @@
+name: Publish feedback to GitHub Discussions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+
+permissions:
+  contents: read
+  discussions: write
+
+concurrency:
+  group: switch-hbas-feedback
+  cancel-in-progress: false
+
+jobs:
+  publish-feedback:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Import feedback as Discussions
+        env:
+          GH_TOKEN: ${{ github.token }}
+          FEEDBACK_API_TOKEN: ${{ secrets.FEEDBACK_API_TOKEN }}
+          FEEDBACK_API_URL: https://hbas.sandybos.eu/api/feedback.php
+          FEEDBACK_DISCUSSION_CATEGORY: ${{ vars.FEEDBACK_DISCUSSION_CATEGORY }}
+        run: node scripts/import-feedback.mjs

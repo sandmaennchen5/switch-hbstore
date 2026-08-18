@@ -1,0 +1,12 @@
+{
+  "id": "retroarch-cores",
+  "title": "RetroArch – zusätzliche Cores",
+  "author": "Libretro",
+  "description": "Alle zusätzlichen Nintendo-Switch-Cores inklusive der zugehörigen Info-Dateien.",
+  "details": "Optionales Ergänzungspaket. Es installiert die zusätzlichen Cores und ihre Metadaten unter retroarch/info. RetroArch selbst, Assets, Shader und Datenbanken sind im Hauptpaket enthalten.",
+  "category": "emu",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.retroarch.com/",
+  "compatibility": { "libnx": "4.10.0-1+", "atmosphere": "1.10.0+", "firmware": "21.x.x+", "minimumAtmosphere": "1.10.0", "minimumFirmware": "21", "verified": false },
+  "channels": ["stable"]
+}

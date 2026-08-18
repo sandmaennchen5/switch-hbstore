@@ -1,0 +1,75 @@
+{
+  "brand": "Switch HBAS for PSXTOOLS",
+  "brandMark": "S",
+  "brandLogo": "",
+  "eyebrow": "Nintendo Switch Homebrew",
+  "headline": "Apps entdecken.",
+  "description": "Custom Repository für Sphaira und den HB App Store. Durchsuche Pakete, vergleiche Versionen und lade das passende Archiv herunter.",
+  "buttons": {
+    "copy": "Adresse kopieren",
+    "feedOpen": "Feed öffnen",
+    "repoOpen": "repo.json öffnen",
+    "back": "Zur Appübersicht",
+    "repositorySetup": "Repository einrichten",
+    "rssSetup": "RSS einrichten",
+    "feedback": "Feedback hinterlassen",
+    "installFiles": "Installierte Dateien anzeigen",
+    "githubContents": "Paketinhalt auf GitHub",
+    "githubHistory": "Paketverlauf auf GitHub",
+    "copied": "Kopiert ✓"
+  },
+  "feedback": {
+    "enabled": true,
+    "endpoint": "/api/feedback.php",
+    "headline": "Feedback hinterlassen",
+    "description": "Beschreibe einen Fehler, einen Wunsch oder deine Erfahrung mit diesem Paket.",
+    "submit": "Feedback absenden",
+    "success": "Danke! Dein Feedback wird in GitHub Discussions veröffentlicht."
+  },
+  "theme": {
+    "background": "#080d18",
+    "surface": "#111a2b",
+    "surfaceSecondary": "#172338",
+    "accent": "#42d3ff",
+    "accentSecondary": "#7c6cff"
+  },
+  "categoryLabels": {
+    "emu": "Emulatoren",
+    "tool": "Tools",
+    "game": "Spiele",
+    "media": "Medien",
+    "sysmodule": "Systemmodule",
+    "cfw": "CFW-Pakete",
+    "pc-tool": "PC-Tools",
+    "theme": "Themes",
+    "misc": "Sonstiges"
+  },
+  "rssPage": {
+    "brand": "Switch HBAS RSS",
+    "eyebrow": "Automatische Benachrichtigungen",
+    "headline": "Updates auf iOS und Android abonnieren.",
+    "intro": "RSS informiert über neue Versionen und zeigt eine kompakte Zusammenfassung der aktuellen Änderungen. Die Feeds enthalten keine Werbung und benötigen kein Benutzerkonto.",
+    "sections": {
+      "all": { "title": "Alle Programme", "description": "Version, Aktualisierungsdatum, bis zu zehn Changelog-Zeilen und ein Link zur jeweiligen Appansicht." },
+      "amsplus": { "title": "Nur amsPLUS", "description": "Alle automatisch erkannten Einträge aus ‚Zuletzt aktualisiert‘ im ersten Forenbeitrag." },
+      "ios": { "title": "iPhone und iPad", "steps": ["RSS-Reader aus dem App Store installieren, beispielsweise NetNewsWire oder Feedly.", "‚Feed hinzufügen‘ beziehungsweise das Pluszeichen auswählen.", "Eine der Feed-Adressen einfügen und abonnieren."] },
+      "android": { "title": "Android", "steps": ["RSS-Reader installieren, beispielsweise Feeder oder Feedly.", "‚Feed hinzufügen‘ auswählen.", "Feed-Adresse einfügen und das Abonnement speichern."] }
+    }
+  },
+  "repositoryPage": {
+    "brand": "Switch HBAS Repository",
+    "eyebrow": "Sphaira & HB App Store",
+    "headline": "Repository auswählen und hinzufügen.",
+    "intro": "Verwende in der App die Basisadresse ohne /repo.json. Wähle normalerweise Stable; Nightly und Beta sind für Tests gedacht.",
+    "sections": {
+      "all": { "title": "Alle Kanäle", "description": "Kombiniertes Hauptrepository mit Paketen aus Stable, Beta und Nightly." },
+      "stable": { "title": "Stable", "description": "Empfohlener Kanal mit regulären, stabilen Veröffentlichungen." },
+      "beta": { "title": "Beta", "description": "Vorabversionen zum Testen neuer Funktionen. Kann weniger stabil sein." },
+      "nightly": { "title": "Nightly", "description": "Sehr aktuelle Entwicklungsstände. Geeignet zum Testen, Änderungen können häufiger auftreten." },
+      "compatible": { "title": "AMS 1.10.0+ / FW 21+", "description": "Nur bestätigte Store-Pakete, deren Mindestanforderungen zu Atmosphère 1.10.0 und Firmware 21 oder neuer passen." },
+      "sphaira": { "title": "In Sphaira hinzufügen", "steps": ["In Sphaira den Appstore öffnen.", "Die Optionen beziehungsweise Repository-Verwaltung öffnen und ein benutzerdefiniertes Repository hinzufügen.", "Eine der oben genannten Basisadressen eintragen und den Appstore neu laden."], "note": "Sphaira lädt die Paketliste, Bilder und Archive anschließend aus dem gewählten Kanal." },
+      "hbAppStore": { "title": "Im HB App Store hinzufügen", "steps": ["Im HB App Store die Repository-Verwaltung beziehungsweise Konfiguration öffnen.", "Eine der oben genannten Adressen als Switch-Repository eintragen.", "Den HB App Store neu starten oder die Paketliste aktualisieren."], "note": "Falls deine Version keine Repository-Auswahl in der Oberfläche anbietet, wird die Liste über repos.json im App-Store-Datenordner auf der SD-Karte verwaltet." },
+      "selection": { "title": "Welche Adresse?", "steps": ["Alle Kanäle: kombiniert Stable, Beta und Nightly.", "Stable: beste Standardauswahl.", "Beta: kommende Versionen testen.", "Nightly: neueste Entwicklungsstände.", "Kompatibel: nur bestätigte Pakete für AMS 1.10.0+/FW 21+."], "note": "Nicht gleichzeitig Stable und Nightly für dasselbe Programm installieren: Beide können dieselben Dateien auf der SD-Karte verwalten." }
+    }
+  }
+}

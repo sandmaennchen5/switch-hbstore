@@ -1,0 +1,12 @@
+{
+  "id": "retroarch",
+  "title": "RetroArch",
+  "author": "Libretro",
+  "description": "Neueste stabile Nintendo-Switch-Libnx-Version von RetroArch.",
+  "category": "emu",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.retroarch.com/",
+  "binary": "switch/retroarch_switch.nro",
+  "compatibility": { "libnx": "4.10.0-1+", "atmosphere": "1.10.0+", "firmware": "21.x.x+", "minimumAtmosphere": "1.10.0", "minimumFirmware": "21", "verified": false },
+  "channels": ["stable"]
+}

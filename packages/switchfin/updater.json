@@ -1,0 +1,11 @@
+{
+  "source": {
+    "type": "github-release",
+    "owner": "dragonflylee",
+    "repo": "switchfin",
+    "asset": "Switchfin.nro"
+  },
+  "install": [
+    { "from": "*.nro", "to": "switch/Switchfin/Switchfin.nro" }
+  ]
+}

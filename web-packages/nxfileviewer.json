@@ -1,0 +1,15 @@
+{
+  "id": "nxfileviewer",
+  "title": "NxFileViewer",
+  "author": "Myster-Tee",
+  "description": "PC-Programm zum Anzeigen und Durchsuchen von Nintendo-Switch-Dateien.",
+  "details": "Unterstützt NSP, NSZ, XCI und XCZ. Benötigt unter Windows das .NET 8 Desktop Runtime.",
+  "category": "pc-tool",
+  "platforms": ["windows"],
+  "license": "GPL-3.0",
+  "source": {
+    "type": "github",
+    "owner": "Myster-Tee",
+    "repo": "NxFileViewer"
+  }
+}

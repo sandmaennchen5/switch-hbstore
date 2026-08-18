@@ -1,0 +1,15 @@
+{
+  "id": "nsxlibrarymanager",
+  "title": "NsxLibraryManager",
+  "author": "ivaano",
+  "description": "Plattformübergreifender Manager für eine Nintendo-Switch-Dateibibliothek.",
+  "details": "Weboberfläche und API zur Verwaltung von NSP-, NSZ-, XCI- und XCZ-Dateien. Unterstützt Windows, Linux, macOS und Docker.",
+  "category": "pc-tool",
+  "platforms": ["windows", "linux", "macos", "docker"],
+  "license": "Siehe Projektseite",
+  "source": {
+    "type": "github",
+    "owner": "ivaano",
+    "repo": "NsxLibraryManager"
+  }
+}

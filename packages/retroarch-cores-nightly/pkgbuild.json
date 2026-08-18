@@ -1,0 +1,12 @@
+{
+  "id": "retroarch-cores-nightly",
+  "title": "RetroArch Nightly – zusätzliche Cores",
+  "author": "Libretro",
+  "description": "Alle zusätzlichen Nintendo-Switch-Nightly-Cores inklusive der zugehörigen Info-Dateien.",
+  "details": "Optionales Ergänzungspaket für RetroArch Nightly. Es installiert die zusätzlichen Cores und ihre Metadaten unter retroarch/info.",
+  "category": "emu",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.retroarch.com/",
+  "compatibility": { "libnx": "4.10.0-1+", "atmosphere": "1.10.0+", "firmware": "21.x.x+", "minimumAtmosphere": "1.10.0", "minimumFirmware": "21", "verified": false },
+  "channels": ["nightly"]
+}

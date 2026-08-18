@@ -1,0 +1,17 @@
+{
+  "name": "switch-hbas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automatischer Generator für Switch-Homebrew-Repositories, kompatibel mit Sphaira und HB App Store.",
+  "type": "module",
+  "bin": { "switch-hbas": "dist/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "check": "npm run build && node dist/cli.js validate",
+    "update": "npm run build && node dist/cli.js update",
+    "generate": "npm run build && node dist/cli.js generate",
+    "feeds": "npm run build && node dist/cli.js feeds",
+    "all": "npm run build && node dist/cli.js all"
+  },
+  "devDependencies": { "@types/node": "^24.0.0", "typescript": "^5.8.0" }
+}

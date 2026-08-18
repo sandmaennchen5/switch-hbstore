@@ -1,0 +1,140 @@
+name: Update and publish Switch HBAS
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: [site/**]
+  schedule:
+    - cron: '17 3 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: switch-hbas-deploy
+  cancel-in-progress: false
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - name: Install 7-Zip (ZIP64 packer and extractor)
+        run: sudo apt-get update && sudo apt-get install -y p7zip-full
+      - run: npm ci
+      - name: Restore finished package archives
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache
+          key: switch-hbas-${{ runner.os }}-${{ hashFiles('state/*.json') }}
+          restore-keys: switch-hbas-${{ runner.os }}-
+      - name: Build packages and repository
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: npm run all
+      - name: Cache finished package archives
+        uses: actions/cache/save@v4
+        with:
+          path: .cache
+          key: switch-hbas-${{ runner.os }}-${{ hashFiles('state/*.json') }}
+      - name: Commit update status
+        run: |
+          git config user.name 'switch-hbas bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add state
+          git diff --cached --quiet || git commit -m 'chore: update repository output'
+          git push
+      - name: Prepare content-based upload
+        id: deploy
+        env:
+          FTPS_HOST: ${{ secrets.FTPS_HOST }}
+          FTPS_USER: ${{ secrets.FTPS_USER }}
+          FTPS_PASSWORD: ${{ secrets.FTPS_PASSWORD }}
+          FTPS_SERVER_DIR: ${{ secrets.FTPS_SERVER_DIR }}
+          FEEDBACK_API_TOKEN: ${{ secrets.FEEDBACK_API_TOKEN }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+          lftp <<EOF || true
+          set cmd:fail-exit no
+          set ftp:ssl-force true
+          set ftp:ssl-protect-data true
+          set ftp:passive-mode true
+          set ssl:verify-certificate yes
+          open -u "$FTPS_USER","$FTPS_PASSWORD" "ftp://$FTPS_HOST:21"
+          get "$FTPS_SERVER_DIR/.deploy-manifest.json" -o .remote-deploy-manifest.json
+          bye
+          EOF
+          node dist/cli.js stage-deploy .remote-deploy-manifest.json .deploy
+          mkdir -p .deploy/api
+          printf '%s' "$FEEDBACK_API_TOKEN" > .deploy/api/.feedback-token
+          if [ -n "$(find .deploy -type f -print -quit)" ]; then echo "changed=true" >> "$GITHUB_OUTPUT"; else echo "changed=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Upload webspace deletion candidates report
+        if: hashFiles('.deploy-delete-candidates.txt') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: webspace-delete-candidates
+          path: .deploy-delete-candidates.txt
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Upload changed files to all-INKL.COM via resumable FTPS
+        if: steps.deploy.outputs.changed == 'true'
+        env:
+          FTPS_HOST: ${{ secrets.FTPS_HOST }}
+          FTPS_USER: ${{ secrets.FTPS_USER }}
+          FTPS_PASSWORD: ${{ secrets.FTPS_PASSWORD }}
+          FTPS_SERVER_DIR: ${{ secrets.FTPS_SERVER_DIR }}
+        run: |
+          lftp <<EOF
+          set cmd:fail-exit yes
+          set ftp:ssl-force true
+          set ftp:ssl-protect-data true
+          set ftp:passive-mode true
+          set ssl:verify-certificate yes
+          set net:max-retries 8
+          set net:reconnect-interval-base 5
+          set net:reconnect-interval-max 60
+          set net:timeout 120
+          open -u "$FTPS_USER","$FTPS_PASSWORD" "ftp://$FTPS_HOST:21"
+          cd "$FTPS_SERVER_DIR"
+          mirror --reverse --continue --parallel=1 ./.deploy/ .
+          put ./.deploy/.htaccess -o .htaccess
+          put ./.deploy/stable/.htaccess -o stable/.htaccess
+          put ./.deploy/beta/.htaccess -o beta/.htaccess
+          put ./.deploy/nightly/.htaccess -o nightly/.htaccess
+          put ./.deploy/compatible/.htaccess -o compatible/.htaccess
+          put ./.deploy/api/.htaccess -o api/.htaccess
+          put ./.deploy/api/data/.htaccess -o api/data/.htaccess
+          put ./.deploy/api/.feedback-token -o api/.feedback-token
+          cls -la
+          bye
+          EOF
+      - name: Verify public repository and rewrite routes
+        if: steps.deploy.outputs.changed == 'true'
+        run: |
+          BASE_URL="$(node -p "require('./repo.config.json').baseUrl.replace(/\/$/, '')")"
+          for path in \
+            repo.json \
+            packages/retroarch.zip \
+            packages/retroarch/icon.png \
+            zips/retroarch.zip \
+            stable/repo.json \
+            stable/zips/retroarch.zip \
+            stable/packages/retroarch.zip \
+            stable/packages/retroarch/icon.png \
+            beta/repo.json \
+            nightly/repo.json \
+            nightly/zips/retroarch-nightly.zip \
+            compatible/repo.json \
+            compatible/zips/retroarch.zip
+          do
+            url="$BASE_URL/$path"
+            status="$(curl --silent --show-error --head --location \
+              --retry 5 --retry-delay 3 \
+              --output /dev/null --write-out '%{http_code}' "$url")"
+            echo "$status $url"
+            case "$status" in 2*|3*) ;; *) exit 1 ;; esac
+          done

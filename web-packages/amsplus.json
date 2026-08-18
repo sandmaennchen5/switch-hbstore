@@ -1,0 +1,17 @@
+{
+  "id": "amsplus",
+  "title": "amsPLUS",
+  "author": "muxi / psXtools",
+  "description": "Einsteigerfreundliches All-in-One-CFW-Paket für alle Nintendo-Switch-1-Revisionen.",
+  "details": "CFW-Zusammenstellung auf Basis von Atmosphère und Hekate. Anleitung, Voraussetzungen und Downloads werden im offiziellen psXtools-Forenthema gepflegt.",
+  "category": "cfw",
+  "platforms": ["switch"],
+  "license": "Siehe Projektseite",
+  "icon": "assets/amsplus.jpg",
+  "source": {
+    "type": "manual",
+    "version": "laufend aktualisiert",
+    "url": "https://psxtools.de/forum/index.php?thread/81955-cfw-amsplus-das-einsteigerfreundliche-all-in-one-paket-für-alle-switch-1-revisio/",
+    "scrape": "amsplus"
+  }
+}

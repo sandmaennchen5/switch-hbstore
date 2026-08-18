@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.cache/
+site/
+.deploy/
+.deploy-delete-candidates.txt
+.remote-deploy-manifest.json
+*.zip
+*.7z
+*.tar.gz
+*.nro

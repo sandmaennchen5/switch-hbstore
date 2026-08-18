@@ -1,0 +1,12 @@
+{
+  "id": "retroarch-nightly",
+  "title": "RetroArch (nightly)",
+  "author": "Libretro",
+  "description": "Aktueller Nintendo-Switch-Libnx-Nightly-Build von RetroArch.",
+  "category": "emu",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://www.retroarch.com/",
+  "binary": "switch/retroarch_switch.nro",
+  "compatibility": { "libnx": "4.10.0-1+", "atmosphere": "1.10.0+", "firmware": "21.x.x+", "minimumAtmosphere": "1.10.0", "minimumFirmware": "21", "verified": true },
+  "channels": ["nightly"]
+}

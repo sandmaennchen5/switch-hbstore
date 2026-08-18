@@ -1,0 +1,12 @@
+{
+  "id": "switchfin",
+  "title": "Switchfin",
+  "author": "dragonflylee",
+  "description": "Nintendo Switch Jellyfin client.",
+  "category": "tool",
+  "license": "Apache v2",
+  "homepage": "https://github.com/dragonflylee/switchfin",
+  "compatibility": { "libnx": "4.10.0-1+", "atmosphere": "1.10.0+", "firmware": "21.x.x+", "minimumAtmosphere": "1.10.0", "minimumFirmware": "21", "verified": false },
+  "channels": ["stable"],
+  "details": "Switchfin is third-party PC player for Jellyfin that provides a native user interface to browse and play movies and series.\\nSupported media items: movies, series, seasons, episodes\\nDirect play and transcoding"
+}
