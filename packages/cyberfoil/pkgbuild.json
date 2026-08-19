@@ -1,0 +1,13 @@
+{
+  "id": "cyberfoil",
+  "title": "CyberFoil",
+  "author": "luketanti",
+  "description": "Installer für NSP-, NSZ-, XCI- und XCZ-Dateien auf Nintendo Switch.",
+  "details": "CyberFoil ist ein grafischer Datei-Installer für Nintendo Switch. Er unterstützt lokale Dateien und kompatible Remote-Server. Mit AeroFoil stehen zusätzlich Save-Sync und weitere Serverfunktionen zur Verfügung.",
+  "category": "tool",
+  "license": "GPL-3.0",
+  "homepage": "https://cyberfoil.foo/",
+  "binary": "switch/CyberFoil/cyberfoil.nro",
+  "channels": ["stable"],
+  "related": ["aerofoil", "ownfoil"]
+}

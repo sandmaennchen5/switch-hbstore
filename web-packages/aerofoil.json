@@ -1,0 +1,16 @@
+{
+  "id": "aerofoil",
+  "title": "AeroFoil",
+  "author": "luketanti",
+  "description": "Selbst gehosteter Bibliotheks- und Remote-Server für Nintendo Switch.",
+  "details": "AeroFoil verwaltet eine eigene Spielebibliothek über eine Weboberfläche und stellt sie kompatiblen Switch-Clients bereit. Das PC-Tool kann mit Docker oder Python betrieben werden und ist speziell auf CyberFoil abgestimmt, einschließlich Save-Sync.",
+  "category": "pc-tool",
+  "platforms": ["docker", "linux", "windows", "macos"],
+  "license": "MIT",
+  "related": ["cyberfoil"],
+  "source": {
+    "type": "github",
+    "owner": "luketanti",
+    "repo": "AeroFoil"
+  }
+}

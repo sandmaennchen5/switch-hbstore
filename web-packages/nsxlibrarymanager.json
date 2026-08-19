@@ -7,6 +7,12 @@
   "category": "pc-tool",
   "platforms": ["windows", "linux", "macos", "docker"],
   "license": "Siehe Projektseite",
+  "icon": "assets/nsxlibrarymanager-icon.png",
+  "banner": "assets/nsxlibrarymanager-screen.jpg",
+  "screens": [
+    "assets/nsxlibrarymanager-screen1.jpg",
+    "assets/nsxlibrarymanager-screen2.jpg"
+  ],
   "source": {
     "type": "github",
     "owner": "ivaano",

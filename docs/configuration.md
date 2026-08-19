@@ -108,7 +108,21 @@ RSS-Abschnittsschlüssel sind `all`, `amsplus`, `ios` und `android`. Repository-
 
 JSON-Dateien direkt unter `web-packages/` erscheinen ausschließlich auf der Website und im allgemeinen RSS-Feed, nicht in den Store-`repo.json`. Dadurch lassen sich CFW-Pakete und PC-Programme mit aktuellen Links darstellen.
 
-Pflichtfelder sind `id`, `title`, `author`, `description`, `category`, `platforms`, `license` und `source`. Optional sind `details`, `icon` und `compatibility`.
+Pflichtfelder sind `id`, `title`, `author`, `description`, `category`, `platforms`, `license` und `source`. Optional sind `details`, `icon`, `banner`, `screens`, `compatibility` und `related`.
+
+Lokale Bilder liegen unter `web-packages/assets/`. `icon` erscheint auf der Paketkarte, `banner` oben im Detaildialog und `screens` als Bildergalerie:
+
+```json
+"icon": "assets/beispiel-icon.png",
+"banner": "assets/beispiel-banner.jpg",
+"screens": ["assets/beispiel-screen1.jpg", "assets/beispiel-screen2.jpg"]
+```
+
+`related` enthält IDs anderer Store- oder Web-Pakete. Die Website zeigt diese im Detaildialog unter „Passende Programme“ an und kennzeichnet sie als PC-Tool oder Switch-Client:
+
+```json
+"related": ["cyberfoil"]
+```
 
 GitHub-Quelle:
 
@@ -136,7 +150,7 @@ Manuelle Quelle:
 
 ## Website-Funktionen
 
-Die Übersicht bietet Suche, Kategorien, Kanal- und Sortierfilter sowie die Kompatibilitätsfilter „Alle geprüften“, AMS 1.10.0+/FW 21+, anderer Versionsstand, nicht geprüft und ohne Angabe. Detaildialoge zeigen Größen, Downloads, MD5, SHA-256, Bilder, Projektseite und Changelog. Web-Pakete ohne Archive zeigen nicht verfügbare Prüfsummen bzw. Größen entsprechend an.
+Die Übersicht bietet Suche, Kategorien, Kanal- und Sortierfilter sowie die Kompatibilitätsfilter „Alle geprüften“, AMS 1.10.0+/FW 21+, anderer Versionsstand, nicht geprüft und ohne Angabe. Detaildialoge zeigen Größen, Downloads, MD5, SHA-256, Bilder, Projektseite, Changelog und Verknüpfungen zu passenden Programmen. Web-Pakete ohne Archive zeigen nicht verfügbare Prüfsummen bzw. Größen entsprechend an.
 
 ## Workflows und Deployment
 

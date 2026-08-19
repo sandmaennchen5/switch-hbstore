@@ -1,0 +1,21 @@
+{
+  "id": "romm",
+  "title": "RomM",
+  "author": "rommapp",
+  "description": "Selbst gehosteter ROM-Manager mit Weboberfläche und integriertem Browser-Player.",
+  "details": "RomM scannt und verwaltet ROM-Sammlungen, ergänzt Metadaten und Artwork und stellt die Bibliothek über eine responsive Weboberfläche bereit. Spiele lassen sich im Browser abspielen oder mit kompatiblen Clients wie SwitchRomM herunterladen.",
+  "category": "pc-tool",
+  "platforms": ["docker", "linux", "web"],
+  "license": "AGPL-3.0",
+  "icon": "assets/romm-icon.png",
+  "banner": "assets/romm-screen.jpg",
+  "screens": [
+    "assets/romm-screen1.jpg"
+  ],
+  "related": ["switchromm"],
+  "source": {
+    "type": "github",
+    "owner": "rommapp",
+    "repo": "romm"
+  }
+}

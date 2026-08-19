@@ -7,7 +7,9 @@
   "category": "cfw",
   "platforms": ["switch"],
   "license": "Siehe Projektseite",
-  "icon": "assets/amsplus.jpg",
+  "icon": "assets/amsplus-icon.png",
+  "banner": "assets/amsplus-screen.jpg",
+  "screens": ["assets/amsplus-screen1.jpg"],
   "source": {
     "type": "manual",
     "version": "laufend aktualisiert",

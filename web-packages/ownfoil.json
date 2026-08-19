@@ -1,0 +1,16 @@
+{
+  "id": "ownfoil",
+  "title": "Ownfoil",
+  "author": "a1ex4",
+  "description": "Selbst gehosteter Nintendo-Switch-Bibliotheksmanager und Shop-Server.",
+  "details": "Ownfoil verwaltet eine eigene Switch-Bibliothek und stellt sie über eine Weboberfläche sowie kompatiblen Clients bereit. Der Server kann mit Docker oder Python betrieben werden und unterstützt unter anderem CyberFoil.",
+  "category": "pc-tool",
+  "platforms": ["docker", "linux", "windows", "macos"],
+  "license": "AGPL-3.0",
+  "related": ["cyberfoil"],
+  "source": {
+    "type": "github",
+    "owner": "a1ex4",
+    "repo": "ownfoil"
+  }
+}

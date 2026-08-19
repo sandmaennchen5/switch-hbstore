@@ -1,0 +1,13 @@
+{
+  "id": "switchromm",
+  "title": "SwitchRomM",
+  "author": "Shalasere",
+  "description": "Nintendo-Switch-Client zum Durchsuchen und Herunterladen aus einer RomM-Bibliothek.",
+  "details": "SwitchRomM verbindet sich per HTTP oder HTTPS mit einer eigenen RomM-Instanz. Der Client zeigt Plattformen und ROMs an, unterstützt Suche, Warteschlange, fortsetzbare Downloads sowie FAT32-kompatible Dateiaufteilung. Die Serverdaten werden in switch/romm_switch_client/.env oder config.json konfiguriert.",
+  "category": "tool",
+  "license": "Siehe Projektseite",
+  "homepage": "https://github.com/Shalasere/SwitchRomM",
+  "binary": "switch/romm_switch_client/romm-switch-client.nro",
+  "channels": ["stable"],
+  "related": ["romm"]
+}

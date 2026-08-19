@@ -1,0 +1,14 @@
+{
+  "source": {
+    "type": "github-release",
+    "owner": "Shalasere",
+    "repo": "SwitchRomM",
+    "asset": "romm-switch-client.nro"
+  },
+  "install": [
+    {
+      "from": "*.nro",
+      "to": "switch/romm_switch_client/romm-switch-client.nro"
+    }
+  ]
+}

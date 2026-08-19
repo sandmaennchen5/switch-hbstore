@@ -37,6 +37,7 @@ Minimalbeispiel:
 | `app_dls` | Nein | Startwert des Downloadzählers. Ohne Angabe `0`. Dieser Generator zählt Downloads nicht selbst. |
 | `channels` | Nein | Liste der Kanäle, zum Beispiel `["stable"]`, `["nightly"]` oder `["stable", "beta"]`. Standard ist `["stable"]`. |
 | `compatibility` | Nein | Kompatibilitätsanzeige und Grundlage des gefilterten `compatible`-Repos; siehe unten. |
+| `related` | Nein | Paket-IDs passender Programme. Die Website zeigt sie im Detaildialog als Verknüpfungen an, zum Beispiel einen Switch-Client und seine PC-Server. |
 
 ### Kompatibilität
 

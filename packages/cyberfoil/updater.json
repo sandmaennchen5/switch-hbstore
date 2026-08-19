@@ -1,0 +1,12 @@
+{
+  "source": {
+    "type": "github-release",
+    "owner": "luketanti",
+    "repo": "CyberFoil",
+    "asset": "cyberfoil.zip",
+    "direct": true
+  },
+  "install": [
+    { "from": "/", "to": "/" }
+  ]
+}
