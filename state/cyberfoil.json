@@ -1,0 +1,39 @@
+{
+  "id": "cyberfoil",
+  "version": "1.4.6",
+  "changelog": [
+    "CyberFoil 1.4.6",
+    "New",
+    "Added AeroFoil cheat manager support in Remote.",
+    "Browse dedicated cheat sections.",
+    "Download, install, view, create, edit, delete, and upload cheats.",
+    "Remote titles are now grouped by base game, update, and DLC.",
+    "Redesigned the remote editor with a themed modal interface.",
+    "Improvements",
+    "Improved compatibility with legacy remotes, including custom headers and nested directory indexes.",
+    "Remote lists and legacy title loading are more robust.",
+    "Shut down cleanly when exiting the app from HB launcher",
+    "Fixes",
+    "Improved HTTP range-download failures with meaningful diagnostics instead of generic errors.",
+    "Added timeouts and retry handling to avoid stalled network installs.",
+    "Fixed remote authentication handling so credentials are only sent to the configured server origin.",
+    "Fixed UAUTH generation when a server uses its default port."
+  ],
+  "downloadedAt": "2026-08-19T09:16:25.440Z",
+  "updated": "18/08/2026",
+  "sourceUrl": "https://github.com/luketanti/CyberFoil/releases/download/1.4.6/cyberfoil.zip",
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/cyberfoil/cyberfoil-1.4.6.zip",
+  "size": 6555629,
+  "extractedSize": 14716048,
+  "installFiles": [
+    "switch/CyberFoil/cyberfoil.nro"
+  ],
+  "installManifest": [
+    "U: switch/CyberFoil/cyberfoil.nro"
+  ],
+  "direct": true,
+  "finalized": true,
+  "buildKey": "7bdc2f2b6bd4b4829e59150365a9e62369376a41e477763ed357279b3ca3cfe1",
+  "md5": "94ea61144f8296de0e3b698211d89bd9",
+  "sha256": "a2a0b8622d235d8147698f33e4ff03b249a21e49fca3f82dcdabb15d8129966f"
+}
