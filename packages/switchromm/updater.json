@@ -9,6 +9,12 @@
     {
       "from": "*.nro",
       "to": "switch/romm_switch_client/romm-switch-client.nro"
+    },
+    {
+      "from": "config.json",
+      "to": "switch/romm_switch_client/config.json",
+      "mode": "if-missing",
+      "local": "files/config.json"
     }
   ]
 }

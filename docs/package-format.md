@@ -218,6 +218,17 @@ Jede Regel kann optional einen Installationsmodus erhalten:
 | nicht angegeben oder `overwrite` | `U:` | Immer installieren und eine vorhandene Datei überschreiben. Die Datei wird als Paketbestandteil verwaltet. |
 | `if-missing` | `G:` | Nur installieren, wenn am Ziel noch keine Datei existiert. Geeignet für eine erstmalige Standardkonfiguration. |
 
+Mit `local` kann eine Datei aus dem Paketordner zusätzlich zur heruntergeladenen Quelle eingebaut werden. Der Pfad ist relativ zum Ordner mit `updater.json`; `from` muss dabei ein konkreter Dateiname ohne `*` sein. Änderungen am lokalen Inhalt lösen auch bei unveränderter Upstream-Version einen neuen Paket-Build aus:
+
+```json
+{
+  "from": "config.json",
+  "to": "switch/MyApp/config.json",
+  "mode": "if-missing",
+  "local": "files/config.json"
+}
+```
+
 ### Vergleich der Manifestbefehle
 
 | Befehl | Sphaira | HB App Store/libget | Empfehlung |

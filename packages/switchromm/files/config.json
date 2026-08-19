@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "server_url": "https://YOUR_ROMM_HOST:PORT",
+  "username": "your_username",
+  "password": "your_password",
+  "api_token": "",
+  "platform": "",
+  "download_dir": "sdmc:/romm_cache",
+  "http_timeout_seconds": 30,
+  "fat32_safe": true,
+  "log_level": "info",
+  "speed_test_url": ""
+}
