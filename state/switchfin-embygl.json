@@ -13,7 +13,7 @@
     "c3472a6 feat: add soft keyboard support",
     "b126e25 i18n: sync missing translation keys across all languages"
   ],
-  "downloadedAt": "2026-08-18T20:20:35.154Z",
+  "downloadedAt": "2026-08-19T10:37:35.817Z",
   "updated": "03/08/2026",
   "sourceUrl": "https://nightly.link/dragonflylee/switchfin/actions/artifacts/8848218175.zip",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin-embygl/switchfin-embygl-2185.zip",
@@ -26,7 +26,7 @@
     "U: switch/Switchfin/Switchfin.nro"
   ],
   "finalized": true,
-  "buildKey": "74f8f67c71873aa3fbc56774af47069797444cd59c887d6858ae198499e74a85",
-  "md5": "4f7d477c696e7ba87c167de5b229cf83",
-  "sha256": "e958e981601001cb985960d6c3ab505bb89ceef850317b3ac126edfefe94329e"
+  "buildKey": "70d8de6108b43e1bd7423d0af7df262ccd31e031f263906445682eeeee2e98fc",
+  "md5": "7fce2e6726d9eefd5cf7d7070dab20ac",
+  "sha256": "21ade54dc5623de8de524c6f8c349e6f13653e8d7d89978b927343b146373a74"
 }

@@ -8,20 +8,22 @@
     "Stability fixes**: improved shutdown hygiene around updater/network/logging to avoid hbmenu instability after using the updater.",
     "More robust update validation**: better detection/diagnostics for bad payloads, plus correct NRO magic handling."
   ],
-  "downloadedAt": "2026-08-19T09:16:30.750Z",
+  "downloadedAt": "2026-08-19T10:37:36.795Z",
   "updated": "15/02/2026",
   "sourceUrl": "https://github.com/Shalasere/SwitchRomM/releases/download/v0.2.8/romm-switch-client.nro",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchromm/switchromm-v0.2.8.zip",
-  "size": 3306681,
-  "extractedSize": 8227074,
+  "size": 3307082,
+  "extractedSize": 8227383,
   "installFiles": [
+    "switch/romm_switch_client/config.json",
     "switch/romm_switch_client/romm-switch-client.nro"
   ],
   "installManifest": [
+    "G: switch/romm_switch_client/config.json",
     "U: switch/romm_switch_client/romm-switch-client.nro"
   ],
   "finalized": true,
-  "buildKey": "469dbb56d202d832fcc8150d73e91025558741daf7f50708afa54c05a82642df",
-  "md5": "8ca55fec3d1f3dc73c430f7287f88f17",
-  "sha256": "31183fc6facc2325ee782eeb9b9f570d2cb4d7bae854fc19614560e355875b94"
+  "buildKey": "d1cfe97021c964e6f438c6bccb7a0ce70b6d8ff3fcb3b75ceb1d3f5a16cc9ee6",
+  "md5": "3beb1f6843c0c0cb8e5addb321852e57",
+  "sha256": "9cde179064d3cb08f2f47e0d954a144418f57834e567e4ff99fe92b283606443"
 }

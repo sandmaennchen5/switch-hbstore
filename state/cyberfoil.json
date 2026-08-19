@@ -19,7 +19,7 @@
     "Fixed remote authentication handling so credentials are only sent to the configured server origin.",
     "Fixed UAUTH generation when a server uses its default port."
   ],
-  "downloadedAt": "2026-08-19T09:16:25.440Z",
+  "downloadedAt": "2026-08-19T10:32:27.358Z",
   "updated": "18/08/2026",
   "sourceUrl": "https://github.com/luketanti/CyberFoil/releases/download/1.4.6/cyberfoil.zip",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/cyberfoil/cyberfoil-1.4.6.zip",
@@ -33,7 +33,7 @@
   ],
   "direct": true,
   "finalized": true,
-  "buildKey": "7bdc2f2b6bd4b4829e59150365a9e62369376a41e477763ed357279b3ca3cfe1",
-  "md5": "94ea61144f8296de0e3b698211d89bd9",
-  "sha256": "a2a0b8622d235d8147698f33e4ff03b249a21e49fca3f82dcdabb15d8129966f"
+  "buildKey": "57c4cdc65d2d076935b945fbb6050395f081725c3c6b063d83d528440b59caa4",
+  "md5": "879835baf659a5ad420c3903c4f4889b",
+  "sha256": "bafe6b1dc750eb440844f21c30afd823b07e73ddb002f29e7e15b164b81aca4d"
 }

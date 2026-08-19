@@ -97,7 +97,7 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-08-19T04:00:11.950Z",
+  "downloadedAt": "2026-08-19T10:36:46.260Z",
   "updated": "19/08/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-08-19.zip",
@@ -1002,7 +1002,7 @@
     "U: retroarch/cores/yabause_libretro_libnx.nro"
   ],
   "finalized": true,
-  "buildKey": "83aaa2948391e87e14711da790a8b9b56b8eb2b35364fc04769026ef6edffeb9",
-  "md5": "c0c6f2cf7a84899e2167e2b69676e121",
-  "sha256": "67c4b6a9b025165758523c5a0b0cdade837e1caa6a562202da527576189d2eae"
+  "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
+  "md5": "a650aa5a5a9142d5f0dd701041898809",
+  "sha256": "9fc39d58bd047720d82f0d7317a70029f0a2fc47acd4caa943ef1e3f765582eb"
 }
