@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-08-19",
+  "version": "2026-08-21",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-08-19T10:36:46.260Z",
-  "updated": "19/08/2026",
+  "downloadedAt": "2026-08-21T04:02:44.791Z",
+  "updated": "21/08/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-08-19.zip",
-  "size": 960739730,
-  "extractedSize": 2666807983,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-08-21.zip",
+  "size": 954611827,
+  "extractedSize": 2650374727,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -518,7 +518,6 @@
     "retroarch/cores/scummvm_libretro_libnx.nro",
     "retroarch/cores/smsplus_libretro_libnx.nro",
     "retroarch/cores/snes9x2010_libretro_libnx.nro",
-    "retroarch/cores/squirreljme_libretro_libnx.nro",
     "retroarch/cores/stella2014_libretro_libnx.nro",
     "retroarch/cores/stella2023_libretro_libnx.nro",
     "retroarch/cores/superbroswar_libretro_libnx.nro",
@@ -967,7 +966,6 @@
     "U: retroarch/cores/scummvm_libretro_libnx.nro",
     "U: retroarch/cores/smsplus_libretro_libnx.nro",
     "U: retroarch/cores/snes9x2010_libretro_libnx.nro",
-    "U: retroarch/cores/squirreljme_libretro_libnx.nro",
     "U: retroarch/cores/stella2014_libretro_libnx.nro",
     "U: retroarch/cores/stella2023_libretro_libnx.nro",
     "U: retroarch/cores/superbroswar_libretro_libnx.nro",
@@ -1003,6 +1001,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "a650aa5a5a9142d5f0dd701041898809",
-  "sha256": "9fc39d58bd047720d82f0d7317a70029f0a2fc47acd4caa943ef1e3f765582eb"
+  "md5": "0fe3520ff6516e366a07fa5506e7b1a7",
+  "sha256": "c994295803d68acff59811f3e741229676bbe7b47e9297db4532b28d32ce8d67"
 }

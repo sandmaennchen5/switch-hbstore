@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-08-19",
+  "version": "2026-08-21",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-08-19T10:37:25.468Z",
-  "updated": "19/08/2026",
+  "downloadedAt": "2026-08-21T04:03:27.900Z",
+  "updated": "21/08/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-08-19.zip",
-  "size": 186867701,
-  "extractedSize": 454679049,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-08-21.zip",
+  "size": 186939290,
+  "extractedSize": 455756511,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4571,6 +4571,7 @@
     "retroarch/autoconfig/sdl2/8BitDo Pro 2.cfg",
     "retroarch/autoconfig/sdl2/8BitDo Pro 3.cfg",
     "retroarch/autoconfig/sdl2/8BitDo_64_Bluetooth_Controller.cfg",
+    "retroarch/autoconfig/sdl2/8BitDo_Ultimate_2C_Wireless_BT.cfg",
     "retroarch/autoconfig/sdl2/8BitDo_Ultimate_C_Wired_Controller.cfg",
     "retroarch/autoconfig/sdl2/8BitDo_Ultimate_C_Wired_Controller_for_Xbox.cfg",
     "retroarch/autoconfig/sdl2/8Bitdo NES30 Pro   8Bitdo NES30 Pro.cfg",
@@ -4653,6 +4654,7 @@
     "retroarch/autoconfig/hid/8BitDo_Pro2_USB.cfg",
     "retroarch/autoconfig/hid/8BitDo_SN30_Pro+_BT.cfg",
     "retroarch/autoconfig/hid/8BitDo_SN30_Pro+_USB.cfg",
+    "retroarch/autoconfig/hid/8BitDo_Ultimate_2C_Wireless_BT.cfg",
     "retroarch/autoconfig/hid/8BitDo_Ultimate_Wired_Controller.cfg",
     "retroarch/autoconfig/hid/8BitDo_Ultimate_wireless_Controller.cfg",
     "retroarch/autoconfig/hid/8BitDo_Zero2_gamepad_BT.cfg",
@@ -11618,6 +11620,7 @@
     "U: retroarch/autoconfig/sdl2/8BitDo Pro 2.cfg",
     "U: retroarch/autoconfig/sdl2/8BitDo Pro 3.cfg",
     "U: retroarch/autoconfig/sdl2/8BitDo_64_Bluetooth_Controller.cfg",
+    "U: retroarch/autoconfig/sdl2/8BitDo_Ultimate_2C_Wireless_BT.cfg",
     "U: retroarch/autoconfig/sdl2/8BitDo_Ultimate_C_Wired_Controller.cfg",
     "U: retroarch/autoconfig/sdl2/8BitDo_Ultimate_C_Wired_Controller_for_Xbox.cfg",
     "U: retroarch/autoconfig/sdl2/8Bitdo NES30 Pro   8Bitdo NES30 Pro.cfg",
@@ -11700,6 +11703,7 @@
     "U: retroarch/autoconfig/hid/8BitDo_Pro2_USB.cfg",
     "U: retroarch/autoconfig/hid/8BitDo_SN30_Pro+_BT.cfg",
     "U: retroarch/autoconfig/hid/8BitDo_SN30_Pro+_USB.cfg",
+    "U: retroarch/autoconfig/hid/8BitDo_Ultimate_2C_Wireless_BT.cfg",
     "U: retroarch/autoconfig/hid/8BitDo_Ultimate_Wired_Controller.cfg",
     "U: retroarch/autoconfig/hid/8BitDo_Ultimate_wireless_Controller.cfg",
     "U: retroarch/autoconfig/hid/8BitDo_Zero2_gamepad_BT.cfg",
@@ -14398,6 +14402,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "cdcbcc1921b657cbe1c95c83da681c36",
-  "sha256": "ce2bdf55c75a77dd43f032d4abf164e9d63dcc9e260d2dd2602dd2101590e652"
+  "md5": "b16c0883556ecb5f5b868ac2cc3d7b93",
+  "sha256": "6c8d86b9e94833e4ed6fd8eaa8389011ef4de9dd5c613a6527a84a8ded2be386"
 }
