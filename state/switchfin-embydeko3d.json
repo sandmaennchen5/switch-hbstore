@@ -1,24 +1,24 @@
 {
   "id": "switchfin-embydeko3d",
-  "version": "2185",
+  "version": "2248",
   "changelog": [
-    "afad99a feats: Compatible with emby api",
-    "306c237 bump version 0.9.3",
-    "efae860 fix: remove unused lastProgress assignment in VideoProgressSlider constructor",
-    "c0a72dd feats: add chapter select on player view",
-    "a2bcb39 fix: change seek parameter type from int64_t to double for improved precision",
-    "2addda1 feat: add lastProgress to VideoProgressSlider for selection cancellation",
-    "30477d8 feat: add config for max nextup",
-    "75e03c7 fix: show 'Title - Language' in subtitle/audio track selector (matches Jellyfin style) (#236)",
-    "c3472a6 feat: add soft keyboard support",
-    "b126e25 i18n: sync missing translation keys across all languages"
+    "d93f07c feats: Compatible with emby api",
+    "4b9e169 feat: add uchardet support in Makefiles for macOS and Android",
+    "803de97 feat: add EBookView for reading eBooks with MuPDF support",
+    "a433947 Add libmupdf build script",
+    "e08be0d refactor: remove unused selected variable from MenuItem and simplify lambda in VideoView",
+    "d17c8f6 feat: update dependencies and build configurations for libxml2 and fontconfig",
+    "0ef44b6 feat: add played state handling for media items and update button styles",
+    "8309cb5 feat: add USER_AGENT constant for HTTP requests and update user-agent handling in MPVCore",
+    "ed90855 refactor: unify HttpClient setup and improve DirEntry initialization",
+    "d534cc3 feat: add PS4 OpenGL renderer and improve shader handling"
   ],
-  "downloadedAt": "2026-08-19T10:37:32.140Z",
-  "updated": "03/08/2026",
-  "sourceUrl": "https://nightly.link/dragonflylee/switchfin/actions/artifacts/8848209619.zip",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin-embydeko3d/switchfin-embydeko3d-2185.zip",
-  "size": 13827714,
-  "extractedSize": 28619982,
+  "downloadedAt": "2026-08-22T03:55:17.558Z",
+  "updated": "21/08/2026",
+  "sourceUrl": "https://nightly.link/dragonflylee/switchfin/actions/artifacts/9434032531.zip",
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin-embydeko3d/switchfin-embydeko3d-2248.zip",
+  "size": 40902110,
+  "extractedSize": 65541378,
   "installFiles": [
     "switch/Switchfin/Switchfin.nro"
   ],
@@ -27,6 +27,6 @@
   ],
   "finalized": true,
   "buildKey": "88fce6dd1aee6903f52847d3fde87961631c6d760811fef628fab7ce37ebd51e",
-  "md5": "19ebc37a3582ece6cbcb2c0fc78f353f",
-  "sha256": "51b2ce7710a025146a8fae39e04829c535977845ac75a9e35442b0a28f66dc62"
+  "md5": "7c4417b4c29099b8e452ac2804151d4c",
+  "sha256": "d303ea4a34f386bae13cb1545ec905b35a7b82fec1b7a2187c2f6175f1b83835"
 }
