@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-08-21",
+  "version": "2026-08-23",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-08-21T04:03:27.900Z",
-  "updated": "21/08/2026",
+  "downloadedAt": "2026-08-23T04:01:22.325Z",
+  "updated": "23/08/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-08-21.zip",
-  "size": 186939290,
-  "extractedSize": 455756511,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-08-23.zip",
+  "size": 179758347,
+  "extractedSize": 436327737,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4554,7 +4554,6 @@
     "retroarch/cores/mgba_libretro_libnx.nro",
     "retroarch/cores/mupen64plus_next_libretro_libnx.nro",
     "retroarch/cores/nestopia_libretro_libnx.nro",
-    "retroarch/cores/snes9x_libretro_libnx.nro",
     "retroarch/autoconfig/winraw/2Axes 11Keys Game  Pad.cfg",
     "retroarch/autoconfig/winraw/Controller (XBOX 360 For Windows).cfg",
     "retroarch/autoconfig/winraw/DualSense Edge Wireless Controller.cfg",
@@ -11603,7 +11602,6 @@
     "U: retroarch/cores/mgba_libretro_libnx.nro",
     "U: retroarch/cores/mupen64plus_next_libretro_libnx.nro",
     "U: retroarch/cores/nestopia_libretro_libnx.nro",
-    "U: retroarch/cores/snes9x_libretro_libnx.nro",
     "U: retroarch/autoconfig/winraw/2Axes 11Keys Game  Pad.cfg",
     "U: retroarch/autoconfig/winraw/Controller (XBOX 360 For Windows).cfg",
     "U: retroarch/autoconfig/winraw/DualSense Edge Wireless Controller.cfg",
@@ -14402,6 +14400,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "b16c0883556ecb5f5b868ac2cc3d7b93",
-  "sha256": "6c8d86b9e94833e4ed6fd8eaa8389011ef4de9dd5c613a6527a84a8ded2be386"
+  "md5": "ce48d6a1f7fc82af78d320bc52e02cba",
+  "sha256": "a9acce85ecbc0225ebc5519c980e0d0d5429299ff6544fd4b21e015859af3a20"
 }
