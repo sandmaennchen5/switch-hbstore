@@ -1,24 +1,24 @@
 {
   "id": "switchfin-embydeko3d",
-  "version": "2248",
+  "version": "2270",
   "changelog": [
-    "d93f07c feats: Compatible with emby api",
-    "4b9e169 feat: add uchardet support in Makefiles for macOS and Android",
+    "b314a80 feats: Compatible with emby api",
+    "c50f0ab fix: lunasvg font loading when USE_LIBROMFS",
+    "b032c04 bump version 0.9.4",
+    "6c2f223 fix: improve websocket receive loop to handle stop condition correctly",
+    "0c69a88 feat: add unplayed item count badge to media cards",
+    "cfe867d feat: update harfbuzz to version 14.3.1 and add uchardet build support",
     "803de97 feat: add EBookView for reading eBooks with MuPDF support",
     "a433947 Add libmupdf build script",
     "e08be0d refactor: remove unused selected variable from MenuItem and simplify lambda in VideoView",
-    "d17c8f6 feat: update dependencies and build configurations for libxml2 and fontconfig",
-    "0ef44b6 feat: add played state handling for media items and update button styles",
-    "8309cb5 feat: add USER_AGENT constant for HTTP requests and update user-agent handling in MPVCore",
-    "ed90855 refactor: unify HttpClient setup and improve DirEntry initialization",
-    "d534cc3 feat: add PS4 OpenGL renderer and improve shader handling"
+    "d17c8f6 feat: update dependencies and build configurations for libxml2 and fontconfig"
   ],
-  "downloadedAt": "2026-08-22T03:55:17.558Z",
-  "updated": "21/08/2026",
-  "sourceUrl": "https://nightly.link/dragonflylee/switchfin/actions/artifacts/9434032531.zip",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin-embydeko3d/switchfin-embydeko3d-2248.zip",
-  "size": 40902110,
-  "extractedSize": 65541378,
+  "downloadedAt": "2026-08-27T14:11:44.651Z",
+  "updated": "26/08/2026",
+  "sourceUrl": "https://nightly.link/dragonflylee/switchfin/actions/artifacts/9598630733.zip",
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin-embydeko3d/switchfin-embydeko3d-2270.zip",
+  "size": 40976377,
+  "extractedSize": 65688834,
   "installFiles": [
     "switch/Switchfin/Switchfin.nro"
   ],
@@ -27,6 +27,6 @@
   ],
   "finalized": true,
   "buildKey": "88fce6dd1aee6903f52847d3fde87961631c6d760811fef628fab7ce37ebd51e",
-  "md5": "7c4417b4c29099b8e452ac2804151d4c",
-  "sha256": "d303ea4a34f386bae13cb1545ec905b35a7b82fec1b7a2187c2f6175f1b83835"
+  "md5": "bc6fe8445c225f642aa1a05320d3883b",
+  "sha256": "a7ce7d40d74b93d2aad5a7b37369e4bd54f8b9e86508a2d661238b82b0563087"
 }
