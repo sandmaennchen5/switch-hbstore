@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-08-28",
+  "version": "2026-08-29",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-08-28T15:22:00.906Z",
-  "updated": "28/08/2026",
+  "downloadedAt": "2026-08-29T10:05:00.137Z",
+  "updated": "29/08/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-08-28.zip",
-  "size": 187108085,
-  "extractedSize": 456067971,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-08-29.zip",
+  "size": 187110520,
+  "extractedSize": 456077616,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4129,6 +4129,7 @@
     "retroarch/info/gw_libretro.info",
     "retroarch/info/handy_libretro.info",
     "retroarch/info/hatari_libretro.info",
+    "retroarch/info/hatarib_libretro.info",
     "retroarch/info/hbmame_libretro.info",
     "retroarch/info/higan_sfc_balanced_libretro.info",
     "retroarch/info/higan_sfc_libretro.info",
@@ -4323,6 +4324,7 @@
     "retroarch/info/vitaquake3_libretro.info",
     "retroarch/info/vitavoyager_libretro.info",
     "retroarch/info/wasm4_libretro.info",
+    "retroarch/info/wqxemu_libretro.info",
     "retroarch/info/x1_libretro.info",
     "retroarch/info/x64sdl_libretro.info",
     "retroarch/info/xemu_libretro.info",
@@ -11178,6 +11180,7 @@
     "U: retroarch/info/gw_libretro.info",
     "U: retroarch/info/handy_libretro.info",
     "U: retroarch/info/hatari_libretro.info",
+    "U: retroarch/info/hatarib_libretro.info",
     "U: retroarch/info/hbmame_libretro.info",
     "U: retroarch/info/higan_sfc_balanced_libretro.info",
     "U: retroarch/info/higan_sfc_libretro.info",
@@ -11372,6 +11375,7 @@
     "U: retroarch/info/vitaquake3_libretro.info",
     "U: retroarch/info/vitavoyager_libretro.info",
     "U: retroarch/info/wasm4_libretro.info",
+    "U: retroarch/info/wqxemu_libretro.info",
     "U: retroarch/info/x1_libretro.info",
     "U: retroarch/info/x64sdl_libretro.info",
     "U: retroarch/info/xemu_libretro.info",
@@ -14402,6 +14406,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "4f29f69d8b8b98e095873d20b168ecc8",
-  "sha256": "3c3a84793a55cf7469b82cb2f841de4beaf722ec4761c19ad2eaaefe658007f6"
+  "md5": "0f5ea5e005f7c6a69c0d0b97adace6f1",
+  "sha256": "32588561b76fb23224f1c60ea2a14f51c574e9d74e0487714810d077e8eb874c"
 }

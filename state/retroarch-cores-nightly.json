@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-08-28",
+  "version": "2026-08-29",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-08-28T15:21:21.436Z",
-  "updated": "28/08/2026",
+  "downloadedAt": "2026-08-29T10:04:20.039Z",
+  "updated": "29/08/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-08-28.zip",
-  "size": 972333999,
-  "extractedSize": 2694167955,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-08-29.zip",
+  "size": 981974590,
+  "extractedSize": 2719643878,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -218,6 +218,7 @@
     "retroarch/info/gw_libretro.info",
     "retroarch/info/handy_libretro.info",
     "retroarch/info/hatari_libretro.info",
+    "retroarch/info/hatarib_libretro.info",
     "retroarch/info/hbmame_libretro.info",
     "retroarch/info/higan_sfc_balanced_libretro.info",
     "retroarch/info/higan_sfc_libretro.info",
@@ -412,6 +413,7 @@
     "retroarch/info/vitaquake3_libretro.info",
     "retroarch/info/vitavoyager_libretro.info",
     "retroarch/info/wasm4_libretro.info",
+    "retroarch/info/wqxemu_libretro.info",
     "retroarch/info/x1_libretro.info",
     "retroarch/info/x64sdl_libretro.info",
     "retroarch/info/xemu_libretro.info",
@@ -487,6 +489,7 @@
     "retroarch/cores/mednafen_vb_libretro_libnx.nro",
     "retroarch/cores/mednafen_wswan_libretro_libnx.nro",
     "retroarch/cores/mesen-s_libretro_libnx.nro",
+    "retroarch/cores/mesen2_libretro_libnx.nro",
     "retroarch/cores/mesen_libretro_libnx.nro",
     "retroarch/cores/minivmac_libretro_libnx.nro",
     "retroarch/cores/mrboom_libretro_libnx.nro",
@@ -668,6 +671,7 @@
     "U: retroarch/info/gw_libretro.info",
     "U: retroarch/info/handy_libretro.info",
     "U: retroarch/info/hatari_libretro.info",
+    "U: retroarch/info/hatarib_libretro.info",
     "U: retroarch/info/hbmame_libretro.info",
     "U: retroarch/info/higan_sfc_balanced_libretro.info",
     "U: retroarch/info/higan_sfc_libretro.info",
@@ -862,6 +866,7 @@
     "U: retroarch/info/vitaquake3_libretro.info",
     "U: retroarch/info/vitavoyager_libretro.info",
     "U: retroarch/info/wasm4_libretro.info",
+    "U: retroarch/info/wqxemu_libretro.info",
     "U: retroarch/info/x1_libretro.info",
     "U: retroarch/info/x64sdl_libretro.info",
     "U: retroarch/info/xemu_libretro.info",
@@ -937,6 +942,7 @@
     "U: retroarch/cores/mednafen_vb_libretro_libnx.nro",
     "U: retroarch/cores/mednafen_wswan_libretro_libnx.nro",
     "U: retroarch/cores/mesen-s_libretro_libnx.nro",
+    "U: retroarch/cores/mesen2_libretro_libnx.nro",
     "U: retroarch/cores/mesen_libretro_libnx.nro",
     "U: retroarch/cores/minivmac_libretro_libnx.nro",
     "U: retroarch/cores/mrboom_libretro_libnx.nro",
@@ -1005,6 +1011,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "a85388bb32c0b1fa7d9b2f916fb3b66f",
-  "sha256": "bf71b85e6309ff77ea42d13793fe0daf7657479551865180d1361ef8e3d4e287"
+  "md5": "ec6f00e33c922c27275f0c9940ca01ed",
+  "sha256": "1f2a14f379af9c39aa217321bf8bd94d68ea9af1c50b117eb07167bd30dc5065"
 }
