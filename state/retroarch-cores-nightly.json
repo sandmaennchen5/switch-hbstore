@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-08-29",
+  "version": "2026-08-31",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-08-29T10:04:20.039Z",
-  "updated": "29/08/2026",
+  "downloadedAt": "2026-08-31T09:44:18.888Z",
+  "updated": "31/08/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-08-29.zip",
-  "size": 981974590,
-  "extractedSize": 2719643878,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-08-31.zip",
+  "size": 984071448,
+  "extractedSize": 2723519995,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -217,6 +217,7 @@
     "retroarch/info/gpsp_libretro.info",
     "retroarch/info/gw_libretro.info",
     "retroarch/info/handy_libretro.info",
+    "retroarch/info/hatari2014_libretro.info",
     "retroarch/info/hatari_libretro.info",
     "retroarch/info/hatarib_libretro.info",
     "retroarch/info/hbmame_libretro.info",
@@ -670,6 +671,7 @@
     "U: retroarch/info/gpsp_libretro.info",
     "U: retroarch/info/gw_libretro.info",
     "U: retroarch/info/handy_libretro.info",
+    "U: retroarch/info/hatari2014_libretro.info",
     "U: retroarch/info/hatari_libretro.info",
     "U: retroarch/info/hatarib_libretro.info",
     "U: retroarch/info/hbmame_libretro.info",
@@ -1011,6 +1013,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "ec6f00e33c922c27275f0c9940ca01ed",
-  "sha256": "1f2a14f379af9c39aa217321bf8bd94d68ea9af1c50b117eb07167bd30dc5065"
+  "md5": "0ca44f42905de5433339e18d900dd03b",
+  "sha256": "0c605bd6c824ca210c7a552f7417eab92189d36efe24e4d9449006c2e3c0e2df"
 }

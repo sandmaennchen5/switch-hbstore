@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-08-29",
+  "version": "2026-08-31",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-08-29T10:05:00.137Z",
-  "updated": "29/08/2026",
+  "downloadedAt": "2026-08-31T09:44:59.901Z",
+  "updated": "31/08/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-08-29.zip",
-  "size": 187110520,
-  "extractedSize": 456077616,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-08-31.zip",
+  "size": 187228851,
+  "extractedSize": 456300447,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4128,6 +4128,7 @@
     "retroarch/info/gpsp_libretro.info",
     "retroarch/info/gw_libretro.info",
     "retroarch/info/handy_libretro.info",
+    "retroarch/info/hatari2014_libretro.info",
     "retroarch/info/hatari_libretro.info",
     "retroarch/info/hatarib_libretro.info",
     "retroarch/info/hbmame_libretro.info",
@@ -11179,6 +11180,7 @@
     "U: retroarch/info/gpsp_libretro.info",
     "U: retroarch/info/gw_libretro.info",
     "U: retroarch/info/handy_libretro.info",
+    "U: retroarch/info/hatari2014_libretro.info",
     "U: retroarch/info/hatari_libretro.info",
     "U: retroarch/info/hatarib_libretro.info",
     "U: retroarch/info/hbmame_libretro.info",
@@ -14406,6 +14408,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "0f5ea5e005f7c6a69c0d0b97adace6f1",
-  "sha256": "32588561b76fb23224f1c60ea2a14f51c574e9d74e0487714810d077e8eb874c"
+  "md5": "4fbd9bc4bb5b02484064fcfd4eae956f",
+  "sha256": "4c738def883735c6c5756ee7879d6847017d2aaf01cdc4d63974930d5933ab4a"
 }
