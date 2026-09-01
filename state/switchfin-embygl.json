@@ -1,8 +1,9 @@
 {
   "id": "switchfin-embygl",
-  "version": "2270",
+  "version": "2278",
   "changelog": [
-    "b314a80 feats: Compatible with emby api",
+    "0801fd8 feats: Compatible with emby api",
+    "5bb26a3 feat: update curl 8.21.0 and harfbuzz 14.4.0",
     "c50f0ab fix: lunasvg font loading when USE_LIBROMFS",
     "b032c04 bump version 0.9.4",
     "6c2f223 fix: improve websocket receive loop to handle stop condition correctly",
@@ -10,15 +11,14 @@
     "cfe867d feat: update harfbuzz to version 14.3.1 and add uchardet build support",
     "803de97 feat: add EBookView for reading eBooks with MuPDF support",
     "a433947 Add libmupdf build script",
-    "e08be0d refactor: remove unused selected variable from MenuItem and simplify lambda in VideoView",
-    "d17c8f6 feat: update dependencies and build configurations for libxml2 and fontconfig"
+    "e08be0d refactor: remove unused selected variable from MenuItem and simplify lambda in VideoView"
   ],
-  "downloadedAt": "2026-08-27T14:11:51.566Z",
-  "updated": "26/08/2026",
-  "sourceUrl": "https://nightly.link/dragonflylee/switchfin/actions/artifacts/9598681642.zip",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin-embygl/switchfin-embygl-2270.zip",
-  "size": 42317089,
-  "extractedSize": 69431122,
+  "downloadedAt": "2026-09-01T08:39:48.962Z",
+  "updated": "01/09/2026",
+  "sourceUrl": "https://nightly.link/dragonflylee/switchfin/actions/artifacts/9791999507.zip",
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin-embygl/switchfin-embygl-2278.zip",
+  "size": 42332780,
+  "extractedSize": 69504850,
   "installFiles": [
     "switch/Switchfin/Switchfin.nro"
   ],
@@ -27,6 +27,6 @@
   ],
   "finalized": true,
   "buildKey": "70d8de6108b43e1bd7423d0af7df262ccd31e031f263906445682eeeee2e98fc",
-  "md5": "ca6b1343213fbba205b75bc06a8e75ea",
-  "sha256": "8e13be418f79e73dea28bfe95091291be8656d1ddd719f023054929bdedb6785"
+  "md5": "d34eafd0769f0796881284dbcc9c964d",
+  "sha256": "a3a1ef2959d2e636eb1efb80a270cec8c852c3d92d43ce96763afff03355d250"
 }
