@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-09-01",
+  "version": "2026-09-02",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-01T08:39:33.521Z",
-  "updated": "01/09/2026",
+  "downloadedAt": "2026-09-02T07:57:15.958Z",
+  "updated": "02/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-01.zip",
-  "size": 187231714,
-  "extractedSize": 456320927,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-02.zip",
+  "size": 187235182,
+  "extractedSize": 456329119,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -14408,6 +14408,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "6838c345858799abeecd10c7bae1eb64",
-  "sha256": "1cdf7ec9995de6513b81bbe2f80b0bc455efcf3bc36397edb32598894b9ee7a8"
+  "md5": "94b12931cafdb6fcf28619a579ea9beb",
+  "sha256": "5860cb4a71ac77d76a454177d34c29e6a58a04aa7c23925a0dc425bb1e131387"
 }
