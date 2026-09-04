@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-09-03",
+  "version": "2026-09-04",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-03T08:04:20.329Z",
-  "updated": "03/09/2026",
+  "downloadedAt": "2026-09-04T08:05:38.050Z",
+  "updated": "04/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-03.zip",
-  "size": 984409065,
-  "extractedSize": 2724523515,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-04.zip",
+  "size": 992192839,
+  "extractedSize": 2745291681,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -479,6 +479,7 @@
     "retroarch/cores/lutro_libretro_libnx.nro",
     "retroarch/cores/mame2000_libretro_libnx.nro",
     "retroarch/cores/mame2003_libretro_libnx.nro",
+    "retroarch/cores/mame2003_midway_libretro_libnx.nro",
     "retroarch/cores/mame2003_plus_libretro_libnx.nro",
     "retroarch/cores/mednafen_lynx_libretro_libnx.nro",
     "retroarch/cores/mednafen_ngp_libretro_libnx.nro",
@@ -933,6 +934,7 @@
     "U: retroarch/cores/lutro_libretro_libnx.nro",
     "U: retroarch/cores/mame2000_libretro_libnx.nro",
     "U: retroarch/cores/mame2003_libretro_libnx.nro",
+    "U: retroarch/cores/mame2003_midway_libretro_libnx.nro",
     "U: retroarch/cores/mame2003_plus_libretro_libnx.nro",
     "U: retroarch/cores/mednafen_lynx_libretro_libnx.nro",
     "U: retroarch/cores/mednafen_ngp_libretro_libnx.nro",
@@ -1013,6 +1015,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "ba93d505e401e7fafe6af0b3f822492a",
-  "sha256": "981c543feb503fa61e1c96c15fe905e1fc8fcbc9410a511470f3c4d36e631caf"
+  "md5": "5a5eff030f13af9c2c25c17b8e5fa4d6",
+  "sha256": "ea61de0d9bc16bc1a8ee7c7cbd72acf33eecde8abd145917926ee52c9f6cdc19"
 }
