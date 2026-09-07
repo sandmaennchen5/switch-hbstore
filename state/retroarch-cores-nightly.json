@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-09-05",
+  "version": "2026-09-07",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-05T07:41:51.978Z",
-  "updated": "05/09/2026",
+  "downloadedAt": "2026-09-07T08:17:51.440Z",
+  "updated": "07/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-05.zip",
-  "size": 992621895,
-  "extractedSize": 2746057633,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-07.zip",
+  "size": 986240717,
+  "extractedSize": 2722217073,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -118,6 +118,7 @@
     "retroarch/info/applewin_libretro.info",
     "retroarch/info/ardens_libretro.info",
     "retroarch/info/arduous_libretro.info",
+    "retroarch/info/armsx2_libretro.info",
     "retroarch/info/atari800_libretro.info",
     "retroarch/info/azahar_libretro.info",
     "retroarch/info/b2_libretro.info",
@@ -198,6 +199,7 @@
     "retroarch/info/freechaf_libretro.info",
     "retroarch/info/freeintv_libretro.info",
     "retroarch/info/freej2me_libretro.info",
+    "retroarch/info/freej2me_plus_libretro.info",
     "retroarch/info/frodo_libretro.info",
     "retroarch/info/fsuae_libretro.info",
     "retroarch/info/fuse_libretro.info",
@@ -466,7 +468,6 @@
     "retroarch/cores/geargrafx_libretro_libnx.nro",
     "retroarch/cores/gearlynx_libretro_libnx.nro",
     "retroarch/cores/gearsystem_libretro_libnx.nro",
-    "retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
     "retroarch/cores/genesis_plus_gx_wide_libretro_libnx.nro",
     "retroarch/cores/gme_libretro_libnx.nro",
     "retroarch/cores/gong_libretro_libnx.nro",
@@ -573,6 +574,7 @@
     "U: retroarch/info/applewin_libretro.info",
     "U: retroarch/info/ardens_libretro.info",
     "U: retroarch/info/arduous_libretro.info",
+    "U: retroarch/info/armsx2_libretro.info",
     "U: retroarch/info/atari800_libretro.info",
     "U: retroarch/info/azahar_libretro.info",
     "U: retroarch/info/b2_libretro.info",
@@ -653,6 +655,7 @@
     "U: retroarch/info/freechaf_libretro.info",
     "U: retroarch/info/freeintv_libretro.info",
     "U: retroarch/info/freej2me_libretro.info",
+    "U: retroarch/info/freej2me_plus_libretro.info",
     "U: retroarch/info/frodo_libretro.info",
     "U: retroarch/info/fsuae_libretro.info",
     "U: retroarch/info/fuse_libretro.info",
@@ -921,7 +924,6 @@
     "U: retroarch/cores/geargrafx_libretro_libnx.nro",
     "U: retroarch/cores/gearlynx_libretro_libnx.nro",
     "U: retroarch/cores/gearsystem_libretro_libnx.nro",
-    "U: retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
     "U: retroarch/cores/genesis_plus_gx_wide_libretro_libnx.nro",
     "U: retroarch/cores/gme_libretro_libnx.nro",
     "U: retroarch/cores/gong_libretro_libnx.nro",
@@ -1015,6 +1017,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "e5e3abd936bd01000929a3c9e918855e",
-  "sha256": "dbb835f905527b211ceb8dce5234844e4ffb33059f18a0631c93c0d339ffdfb8"
+  "md5": "be5d6b4d6e8a092bafd6a6f8b23d4dd6",
+  "sha256": "7c54da4a33b899cd228e092fab152b55a9384b340dff2190ca30124438d8c4cd"
 }

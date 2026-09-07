@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-09-05",
+  "version": "2026-09-07",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-05T07:42:32.011Z",
-  "updated": "05/09/2026",
+  "downloadedAt": "2026-09-07T08:18:30.500Z",
+  "updated": "07/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-05.zip",
-  "size": 187323938,
-  "extractedSize": 456538522,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-07.zip",
+  "size": 187355812,
+  "extractedSize": 456610123,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4028,6 +4028,7 @@
     "retroarch/info/applewin_libretro.info",
     "retroarch/info/ardens_libretro.info",
     "retroarch/info/arduous_libretro.info",
+    "retroarch/info/armsx2_libretro.info",
     "retroarch/info/atari800_libretro.info",
     "retroarch/info/azahar_libretro.info",
     "retroarch/info/b2_libretro.info",
@@ -4109,6 +4110,7 @@
     "retroarch/info/freechaf_libretro.info",
     "retroarch/info/freeintv_libretro.info",
     "retroarch/info/freej2me_libretro.info",
+    "retroarch/info/freej2me_plus_libretro.info",
     "retroarch/info/frodo_libretro.info",
     "retroarch/info/fsuae_libretro.info",
     "retroarch/info/fuse_libretro.info",
@@ -11080,6 +11082,7 @@
     "U: retroarch/info/applewin_libretro.info",
     "U: retroarch/info/ardens_libretro.info",
     "U: retroarch/info/arduous_libretro.info",
+    "U: retroarch/info/armsx2_libretro.info",
     "U: retroarch/info/atari800_libretro.info",
     "U: retroarch/info/azahar_libretro.info",
     "U: retroarch/info/b2_libretro.info",
@@ -11161,6 +11164,7 @@
     "U: retroarch/info/freechaf_libretro.info",
     "U: retroarch/info/freeintv_libretro.info",
     "U: retroarch/info/freej2me_libretro.info",
+    "U: retroarch/info/freej2me_plus_libretro.info",
     "U: retroarch/info/frodo_libretro.info",
     "U: retroarch/info/fsuae_libretro.info",
     "U: retroarch/info/fuse_libretro.info",
@@ -14408,6 +14412,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "8d29a47499d1151aa1c33daf9a33177d",
-  "sha256": "c86994c038bdc46107015bc5ed67707c924c32e564bba49deb6cd77754743f27"
+  "md5": "d225375ddfee81b259c01eb1a0fb9542",
+  "sha256": "00530171ccf1835c331c41aa1d0ed195c306f911fb71d946586e1df1190b1c36"
 }
