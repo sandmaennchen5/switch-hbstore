@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-09-07",
+  "version": "2026-09-08",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-07T08:17:51.440Z",
-  "updated": "07/09/2026",
+  "downloadedAt": "2026-09-08T08:06:12.863Z",
+  "updated": "08/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-07.zip",
-  "size": 986240717,
-  "extractedSize": 2722217073,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-08.zip",
+  "size": 987167635,
+  "extractedSize": 2731306097,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -468,6 +468,7 @@
     "retroarch/cores/geargrafx_libretro_libnx.nro",
     "retroarch/cores/gearlynx_libretro_libnx.nro",
     "retroarch/cores/gearsystem_libretro_libnx.nro",
+    "retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
     "retroarch/cores/genesis_plus_gx_wide_libretro_libnx.nro",
     "retroarch/cores/gme_libretro_libnx.nro",
     "retroarch/cores/gong_libretro_libnx.nro",
@@ -525,7 +526,6 @@
     "retroarch/cores/scummvm_libretro_libnx.nro",
     "retroarch/cores/smsplus_libretro_libnx.nro",
     "retroarch/cores/snes9x2010_libretro_libnx.nro",
-    "retroarch/cores/squirreljme_libretro_libnx.nro",
     "retroarch/cores/stella2014_libretro_libnx.nro",
     "retroarch/cores/stella2023_libretro_libnx.nro",
     "retroarch/cores/superbroswar_libretro_libnx.nro",
@@ -924,6 +924,7 @@
     "U: retroarch/cores/geargrafx_libretro_libnx.nro",
     "U: retroarch/cores/gearlynx_libretro_libnx.nro",
     "U: retroarch/cores/gearsystem_libretro_libnx.nro",
+    "U: retroarch/cores/genesis_plus_gx_libretro_libnx.nro",
     "U: retroarch/cores/genesis_plus_gx_wide_libretro_libnx.nro",
     "U: retroarch/cores/gme_libretro_libnx.nro",
     "U: retroarch/cores/gong_libretro_libnx.nro",
@@ -981,7 +982,6 @@
     "U: retroarch/cores/scummvm_libretro_libnx.nro",
     "U: retroarch/cores/smsplus_libretro_libnx.nro",
     "U: retroarch/cores/snes9x2010_libretro_libnx.nro",
-    "U: retroarch/cores/squirreljme_libretro_libnx.nro",
     "U: retroarch/cores/stella2014_libretro_libnx.nro",
     "U: retroarch/cores/stella2023_libretro_libnx.nro",
     "U: retroarch/cores/superbroswar_libretro_libnx.nro",
@@ -1017,6 +1017,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "be5d6b4d6e8a092bafd6a6f8b23d4dd6",
-  "sha256": "7c54da4a33b899cd228e092fab152b55a9384b340dff2190ca30124438d8c4cd"
+  "md5": "4d07ebd3064487b2f0d333c3164b8238",
+  "sha256": "480e787474a9954e09389a4e214ccee03d8c9ef14a8f2a153a434e5323330512"
 }
