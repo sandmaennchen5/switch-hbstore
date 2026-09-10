@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-09-08",
+  "version": "2026-09-10",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-08T08:06:52.549Z",
-  "updated": "08/09/2026",
+  "downloadedAt": "2026-09-10T08:10:58.249Z",
+  "updated": "10/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-08.zip",
-  "size": 187368826,
-  "extractedSize": 456655179,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-10.zip",
+  "size": 185492736,
+  "extractedSize": 433349066,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4476,6 +4476,7 @@
     "retroarch/database/rdb/NEC - PC Engine CD - TurboGrafx-CD.rdb",
     "retroarch/database/rdb/NEC - PC Engine SuperGrafx.rdb",
     "retroarch/database/rdb/NEC - PC-8001 - PC-8801.rdb",
+    "retroarch/database/rdb/NEC - PC-88.rdb",
     "retroarch/database/rdb/NEC - PC-98.rdb",
     "retroarch/database/rdb/NEC - PC-FX.rdb",
     "retroarch/database/rdb/Nintendo - Family Computer Disk System.rdb",
@@ -11530,6 +11531,7 @@
     "U: retroarch/database/rdb/NEC - PC Engine CD - TurboGrafx-CD.rdb",
     "U: retroarch/database/rdb/NEC - PC Engine SuperGrafx.rdb",
     "U: retroarch/database/rdb/NEC - PC-8001 - PC-8801.rdb",
+    "U: retroarch/database/rdb/NEC - PC-88.rdb",
     "U: retroarch/database/rdb/NEC - PC-98.rdb",
     "U: retroarch/database/rdb/NEC - PC-FX.rdb",
     "U: retroarch/database/rdb/Nintendo - Family Computer Disk System.rdb",
@@ -14412,6 +14414,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "7cab5a078a6fcddf90f8ef1e2bac9e4f",
-  "sha256": "ac187b2a8940fb23db1f1476b84e41984770c36fbb58bf28f088de326daf28c1"
+  "md5": "d0276536c8ac46d7b0dc9c7ba32d5a42",
+  "sha256": "61d4fca2d5a5e3bf706daf06e2cb4a211f8108f7d07ce8b08e9363c34d703f12"
 }

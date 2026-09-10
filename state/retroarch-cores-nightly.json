@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-09-08",
+  "version": "2026-09-10",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-08T08:06:12.863Z",
-  "updated": "08/09/2026",
+  "downloadedAt": "2026-09-10T08:10:19.849Z",
+  "updated": "10/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-08.zip",
-  "size": 987167635,
-  "extractedSize": 2731306097,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-10.zip",
+  "size": 988872166,
+  "extractedSize": 2735041649,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -1017,6 +1017,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "4d07ebd3064487b2f0d333c3164b8238",
-  "sha256": "480e787474a9954e09389a4e214ccee03d8c9ef14a8f2a153a434e5323330512"
+  "md5": "e9004c0daa6d4b4434d636e367a8864a",
+  "sha256": "52c3073f37fa4894593fbb3f0a6cbd25529d7be16137accf3eed28bec5515a29"
 }
