@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-09-12",
+  "version": "2026-09-13",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-12T07:56:16.073Z",
-  "updated": "12/09/2026",
+  "downloadedAt": "2026-09-13T08:19:26.008Z",
+  "updated": "13/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-12.zip",
-  "size": 992007542,
-  "extractedSize": 2735408843,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-13.zip",
+  "size": 995494484,
+  "extractedSize": 2740714300,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -173,6 +173,7 @@
     "retroarch/info/duckstation_libretro.info",
     "retroarch/info/easyrpg_libretro.info",
     "retroarch/info/ecwolf_libretro.info",
+    "retroarch/info/emucv_libretro.info",
     "retroarch/info/emuscv_libretro.info",
     "retroarch/info/emux_chip8_libretro.info",
     "retroarch/info/emux_gb_libretro.info",
@@ -628,6 +629,7 @@
     "U: retroarch/info/duckstation_libretro.info",
     "U: retroarch/info/easyrpg_libretro.info",
     "U: retroarch/info/ecwolf_libretro.info",
+    "U: retroarch/info/emucv_libretro.info",
     "U: retroarch/info/emuscv_libretro.info",
     "U: retroarch/info/emux_chip8_libretro.info",
     "U: retroarch/info/emux_gb_libretro.info",
@@ -1015,6 +1017,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "ca33c7de20ca571af53f703012c0264c",
-  "sha256": "8a1e7877f7b6c282662c98c226d4a8142c546a5de04c9152f791ef440e81ceff"
+  "md5": "60fd93aa463ffe721cb517e23c39e958",
+  "sha256": "3ba3a266d5c1dc9bb8fd39d0acaa8eb79e59decb4893257d3cc92034cad36767"
 }
