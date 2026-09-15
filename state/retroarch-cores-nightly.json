@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-09-13",
+  "version": "2026-09-15",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-13T08:19:26.008Z",
-  "updated": "13/09/2026",
+  "downloadedAt": "2026-09-15T08:40:06.660Z",
+  "updated": "15/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-13.zip",
-  "size": 995494484,
-  "extractedSize": 2740714300,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-15.zip",
+  "size": 1008352993,
+  "extractedSize": 2773898344,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -337,6 +337,7 @@
     "retroarch/info/retro8_libretro.info",
     "retroarch/info/retrodream_libretro.info",
     "retroarch/info/romcleaner_libretro.info",
+    "retroarch/info/rp6502_libretro.info",
     "retroarch/info/rustation_libretro.info",
     "retroarch/info/rustynes_libretro.info",
     "retroarch/info/rvvm_libretro.info",
@@ -497,6 +498,7 @@
     "retroarch/cores/mesen2_libretro_libnx.nro",
     "retroarch/cores/mesen_libretro_libnx.nro",
     "retroarch/cores/minivmac_libretro_libnx.nro",
+    "retroarch/cores/mojozork_libretro_libnx.nro",
     "retroarch/cores/mrboom_libretro_libnx.nro",
     "retroarch/cores/mu_libretro_libnx.nro",
     "retroarch/cores/neocd_libretro_libnx.nro",
@@ -793,6 +795,7 @@
     "U: retroarch/info/retro8_libretro.info",
     "U: retroarch/info/retrodream_libretro.info",
     "U: retroarch/info/romcleaner_libretro.info",
+    "U: retroarch/info/rp6502_libretro.info",
     "U: retroarch/info/rustation_libretro.info",
     "U: retroarch/info/rustynes_libretro.info",
     "U: retroarch/info/rvvm_libretro.info",
@@ -953,6 +956,7 @@
     "U: retroarch/cores/mesen2_libretro_libnx.nro",
     "U: retroarch/cores/mesen_libretro_libnx.nro",
     "U: retroarch/cores/minivmac_libretro_libnx.nro",
+    "U: retroarch/cores/mojozork_libretro_libnx.nro",
     "U: retroarch/cores/mrboom_libretro_libnx.nro",
     "U: retroarch/cores/mu_libretro_libnx.nro",
     "U: retroarch/cores/neocd_libretro_libnx.nro",
@@ -1017,6 +1021,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "60fd93aa463ffe721cb517e23c39e958",
-  "sha256": "3ba3a266d5c1dc9bb8fd39d0acaa8eb79e59decb4893257d3cc92034cad36767"
+  "md5": "4510e61f0a0abed703c7c9fec88b9212",
+  "sha256": "f6db950533a5e7444d85a6bd86530a67cbd3fff30f7a7db34e2ed64975a6cd70"
 }
