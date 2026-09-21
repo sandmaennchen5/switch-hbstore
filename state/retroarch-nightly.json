@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-09-20",
+  "version": "2026-09-21",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-20T08:35:17.616Z",
-  "updated": "20/09/2026",
+  "downloadedAt": "2026-09-21T08:56:32.806Z",
+  "updated": "21/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-20.zip",
-  "size": 187037943,
-  "extractedSize": 436910127,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-21.zip",
+  "size": 187067837,
+  "extractedSize": 436978536,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4031,6 +4031,7 @@
     "retroarch/info/amiarcadia_libretro.info",
     "retroarch/info/amiberry_libretro.info",
     "retroarch/info/anarch_libretro.info",
+    "retroarch/info/anygm_libretro.info",
     "retroarch/info/applewin_libretro.info",
     "retroarch/info/ardens_libretro.info",
     "retroarch/info/arduous_libretro.info",
@@ -4235,6 +4236,7 @@
     "retroarch/info/picodrive_libretro.info",
     "retroarch/info/piece_libretro.info",
     "retroarch/info/play_libretro.info",
+    "retroarch/info/playdiaemu_libretro.info",
     "retroarch/info/pocketcdg_libretro.info",
     "retroarch/info/pokemini_libretro.info",
     "retroarch/info/pokketstation_libretro.info",
@@ -11099,6 +11101,7 @@
     "U: retroarch/info/amiarcadia_libretro.info",
     "U: retroarch/info/amiberry_libretro.info",
     "U: retroarch/info/anarch_libretro.info",
+    "U: retroarch/info/anygm_libretro.info",
     "U: retroarch/info/applewin_libretro.info",
     "U: retroarch/info/ardens_libretro.info",
     "U: retroarch/info/arduous_libretro.info",
@@ -11303,6 +11306,7 @@
     "U: retroarch/info/picodrive_libretro.info",
     "U: retroarch/info/piece_libretro.info",
     "U: retroarch/info/play_libretro.info",
+    "U: retroarch/info/playdiaemu_libretro.info",
     "U: retroarch/info/pocketcdg_libretro.info",
     "U: retroarch/info/pokemini_libretro.info",
     "U: retroarch/info/pokketstation_libretro.info",
@@ -14440,6 +14444,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "913f0994b20b0a35b3a04a2c65a1ab7f",
-  "sha256": "5fddcea7168243b3fbaefe081ee5fd05f092b0cd804385769af6975b4fea64fd"
+  "md5": "0ff5c806d874aa7c22943d91f609e74a",
+  "sha256": "73b52e58d88b9a776bd00b35f076ba94987dea92821ee4f7c743279ad0d84823"
 }
