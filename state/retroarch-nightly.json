@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-09-22",
+  "version": "2026-09-23",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-22T08:32:33.525Z",
-  "updated": "22/09/2026",
+  "downloadedAt": "2026-09-23T08:34:53.687Z",
+  "updated": "23/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-22.zip",
-  "size": 187073842,
-  "extractedSize": 437007208,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-23.zip",
+  "size": 178693475,
+  "extractedSize": 382324162,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4573,7 +4573,6 @@
     "retroarch/cores/gambatte_libretro_libnx.nro",
     "retroarch/cores/melonds_libretro_libnx.nro",
     "retroarch/cores/mgba_libretro_libnx.nro",
-    "retroarch/cores/mupen64plus_next_libretro_libnx.nro",
     "retroarch/cores/nestopia_libretro_libnx.nro",
     "retroarch/cores/snes9x_libretro_libnx.nro",
     "retroarch/autoconfig/winraw/2Axes 11Keys Game  Pad.cfg",
@@ -11643,7 +11642,6 @@
     "U: retroarch/cores/gambatte_libretro_libnx.nro",
     "U: retroarch/cores/melonds_libretro_libnx.nro",
     "U: retroarch/cores/mgba_libretro_libnx.nro",
-    "U: retroarch/cores/mupen64plus_next_libretro_libnx.nro",
     "U: retroarch/cores/nestopia_libretro_libnx.nro",
     "U: retroarch/cores/snes9x_libretro_libnx.nro",
     "U: retroarch/autoconfig/winraw/2Axes 11Keys Game  Pad.cfg",
@@ -14444,6 +14442,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "d7c90d7f99eba4b4ce31e3de2129ec1f",
-  "sha256": "d68cf452943ed69c05ff3cb82bfc0295694de6d06a4242f24c17add55618f591"
+  "md5": "f2ad8c3dd04a030d747e15c9158d481d",
+  "sha256": "193aa5e76fcbf45f04d06e7744cc63a20277a21ed115169d9c9fbed9792ffefc"
 }
