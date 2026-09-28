@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-09-27",
+  "version": "2026-09-28",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -296,12 +296,12 @@
     "+ Hinzugefügt: VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "+ Hinzugefügt: VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-27T09:15:41.963Z",
-  "updated": "27/09/2026",
+  "downloadedAt": "2026-09-28T09:45:32.181Z",
+  "updated": "28/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-27.zip",
-  "size": 178887858,
-  "extractedSize": 382815682,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-09-28.zip",
+  "size": 178924017,
+  "extractedSize": 382916045,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4260,6 +4260,7 @@
     "retroarch/info/retrodream_libretro.info",
     "retroarch/info/romcleaner_libretro.info",
     "retroarch/info/rp6502_libretro.info",
+    "retroarch/info/rpcs3_libretro.info",
     "retroarch/info/rustation_libretro.info",
     "retroarch/info/rustynes_libretro.info",
     "retroarch/info/rvvm_libretro.info",
@@ -11329,6 +11330,7 @@
     "U: retroarch/info/retrodream_libretro.info",
     "U: retroarch/info/romcleaner_libretro.info",
     "U: retroarch/info/rp6502_libretro.info",
+    "U: retroarch/info/rpcs3_libretro.info",
     "U: retroarch/info/rustation_libretro.info",
     "U: retroarch/info/rustynes_libretro.info",
     "U: retroarch/info/rvvm_libretro.info",
@@ -14442,6 +14444,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "42b2ec3a5fba6bb9e0e10bb29c19d2e5",
-  "sha256": "b294fb4caa300ca4f4deeee89aa3604a33ce6370d9d3078178811fd9a8f2dec1"
+  "md5": "4c7c7b3837c536886c5bb7109a7cd9f4",
+  "sha256": "0ae251d2c9b021efb2edda4fa696e6a2bb5e116917d1f0e0f82b4529f81c7037"
 }
