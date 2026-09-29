@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-09-28",
+  "version": "2026-09-29",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -97,12 +97,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-09-28T09:44:55.205Z",
-  "updated": "28/09/2026",
+  "downloadedAt": "2026-09-29T09:50:04.204Z",
+  "updated": "29/09/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-28.zip",
-  "size": 1056831539,
-  "extractedSize": 2904775309,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-09-29.zip",
+  "size": 1057334661,
+  "extractedSize": 2906555446,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -115,6 +115,7 @@
     "retroarch/info/amiarcadia_libretro.info",
     "retroarch/info/amiberry_libretro.info",
     "retroarch/info/anarch_libretro.info",
+    "retroarch/info/anybor_libretro.info",
     "retroarch/info/anygm_libretro.info",
     "retroarch/info/applewin_libretro.info",
     "retroarch/info/ardens_libretro.info",
@@ -354,6 +355,7 @@
     "retroarch/info/sdlpal_libretro.info",
     "retroarch/info/simcp_libretro.info",
     "retroarch/info/skyemu_libretro.info",
+    "retroarch/info/sm2_libretro.info",
     "retroarch/info/smsplus_libretro.info",
     "retroarch/info/snes9x2002_libretro.info",
     "retroarch/info/snes9x2005_libretro.info",
@@ -585,6 +587,7 @@
     "U: retroarch/info/amiarcadia_libretro.info",
     "U: retroarch/info/amiberry_libretro.info",
     "U: retroarch/info/anarch_libretro.info",
+    "U: retroarch/info/anybor_libretro.info",
     "U: retroarch/info/anygm_libretro.info",
     "U: retroarch/info/applewin_libretro.info",
     "U: retroarch/info/ardens_libretro.info",
@@ -824,6 +827,7 @@
     "U: retroarch/info/sdlpal_libretro.info",
     "U: retroarch/info/simcp_libretro.info",
     "U: retroarch/info/skyemu_libretro.info",
+    "U: retroarch/info/sm2_libretro.info",
     "U: retroarch/info/smsplus_libretro.info",
     "U: retroarch/info/snes9x2002_libretro.info",
     "U: retroarch/info/snes9x2005_libretro.info",
@@ -1045,6 +1049,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "708db2449f722d98b59aab524f4d176f",
-  "sha256": "0a64f4f77128da0dfea6f98f0be9d4d327b415e0e4996231b87bb5b6a2e874bc"
+  "md5": "0231e8948d8d69c77190a36582d68668",
+  "sha256": "3e6ef2ff49bc8de2b102d736c750a470f1582a71dc8dc590dcc14cce52c1c47a"
 }
