@@ -1,0 +1,14 @@
+{
+  "source": {
+    "type": "github-release",
+    "owner": "sandmaennchen5",
+    "repo": "fork_amiibogenerator",
+    "asset": "AmiiboGenerator.nro"
+  },
+  "install": [
+    {
+      "from": "AmiiboGenerator.nro",
+      "to": "switch/AmiiboGenerator/AmiiboGenerator.nro"
+    }
+  ]
+}

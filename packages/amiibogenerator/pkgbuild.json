@@ -1,0 +1,12 @@
+{
+  "id": "amiibogenerator",
+  "title": "AmiiboGenerator",
+  "author": "sandmaennchen5",
+  "description": "Erzeugt emuiibo-kompatible Amiibo-Dateien direkt auf der Nintendo Switch.",
+  "details": "AmiiboGenerator lädt die aktuelle Amiibo-Datenbank und erzeugt daraus ausgewählte oder alle emuiibo-kompatiblen Amiibo-Dateien direkt auf der Konsole. Vorhandene Amiibos werden nicht überschrieben. Optional lädt und optimiert die App außerdem die zugehörigen Bilder. Zum Aktualisieren der Datenbank und Herunterladen der Bilder wird eine Internetverbindung benötigt.",
+  "category": "tool",
+  "license": "Siehe Projektseite",
+  "homepage": "https://github.com/sandmaennchen5/fork_amiibogenerator",
+  "binary": "switch/AmiiboGenerator/AmiiboGenerator.nro",
+  "channels": ["stable"]
+}
