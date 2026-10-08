@@ -1,0 +1,19 @@
+{
+  "id": "amiibogenerator",
+  "version": "v2.1.3-72c8a9b",
+  "changelog": [
+    "Full Changelog**: https://github.com/sandmaennchen5/fork_amiibogenerator/compare/v2.1.2-e7c832d...v2.1.3-72c8a9b"
+  ],
+  "downloadedAt": "2026-10-08T14:41:33.101Z",
+  "updated": "20/08/2026",
+  "sourceUrl": "https://github.com/sandmaennchen5/fork_amiibogenerator/releases/download/v2.1.3-72c8a9b/AmiiboGenerator.nro",
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/amiibogenerator/amiibogenerator-v2.1.3-72c8a9b.zip",
+  "size": 742,
+  "extractedSize": 0,
+  "installFiles": [],
+  "installManifest": [],
+  "finalized": true,
+  "buildKey": "8e31d10d30e99d6d7a23472271bed432708b9493c2c453c3b4550b5327acea84",
+  "md5": "c1d1b0400f296ca4cdd5d0fd8cac82a5",
+  "sha256": "b78cca08290441123fda2c34fb9a4c62df3112bbe8070e47dc8ef91357fb2544"
+}
