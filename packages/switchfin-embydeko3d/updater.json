@@ -15,6 +15,7 @@
     "branch": "emby",
     "commits": 10
   },
+  "autoUpdate": false,
   "install": [
     { "from": "*.nro", "to": "switch/Switchfin/Switchfin.nro" }
   ]
