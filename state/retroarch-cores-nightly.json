@@ -15,6 +15,7 @@
     "CLOUDSYNC: NFS cloud sync driver",
     "CONFIG: Fix saving main configuration after load configuration",
     "CLOUDSYNC: Conflict resolution options",
+    "CLOUDSYNC: Add --cloudsync command line option to run a sync and exit",
     "FFMPEG: new features for save state, variable strength seek, audio/subtitle stream controls",
     "INPUT: Fix illuminance sensor on Linux",
     "INPUT: Fix raw mouse position after window state changes",
@@ -117,11 +118,11 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-10-08T14:44:11.199Z",
+  "downloadedAt": "2026-10-09T10:32:24.552Z",
   "updated": "08/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-08.zip",
-  "size": 1078810401,
+  "size": 1078810432,
   "extractedSize": 2952250994,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
@@ -1073,6 +1074,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "64890248eddc76a3c456015593b450b5",
-  "sha256": "28ebdfad9bfa6d78426722de674d3818175d67b54bfaeca81b82f540702e48b7"
+  "md5": "4c0150067b40a77f05221b054f7ab6c4",
+  "sha256": "561650f938a776d772d3d64253b1b34f1dfa76f8fbbae3a0ca71e80b866f2de3"
 }

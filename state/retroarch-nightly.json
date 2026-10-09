@@ -16,6 +16,7 @@
     "CLOUDSYNC: NFS cloud sync driver",
     "CONFIG: Fix saving main configuration after load configuration",
     "CLOUDSYNC: Conflict resolution options",
+    "CLOUDSYNC: Add --cloudsync command line option to run a sync and exit",
     "FFMPEG: new features for save state, variable strength seek, audio/subtitle stream controls",
     "INPUT: Fix illuminance sensor on Linux",
     "INPUT: Fix raw mouse position after window state changes",
@@ -209,6 +210,8 @@
     "VIDEO/SWITCHRES: Game overrides",
     "VIDEO/VULKAN: Add VK_EXT_full_screen_exclusive extension support for Windows",
     "=== Änderungsverlauf (GitHub) ===",
+    "--- 9.10.2026 ---",
+    "+ Hinzugefügt: CLOUDSYNC: Add --cloudsync command line option to run a sync and exit",
     "--- 5.10.2026 ---",
     "+ Hinzugefügt: NETWORK: MCP server: tools whose work runs over later frames (content, states, replays, shaders, AI service) answer with its outcome once it is through, and the server stays up across content loads",
     "+ Hinzugefügt: NETWORK: Fix SAVE_STATE_SLOT freezing RetroArch with cores such as bsnes",
@@ -226,15 +229,13 @@
     "--- 1.10.2026 ---",
     "+ Hinzugefügt: NETWORK: HTTPS downloads whose length is set by the server closing the connection now finish instead of hanging",
     "--- 30.9.2026 ---",
-    "+ Hinzugefügt: NETWORK: SMB 3.1.1 signs with AES-GMAC where the server offers it, several times faster than AES-CMAC on signed reads",
-    "--- 30.9.2026 ---",
-    "+ Hinzugefügt: NETWORK: NFSv4.2 reads use READ_PLUS: holes in sparse files no longer cross the network"
+    "+ Hinzugefügt: NETWORK: SMB 3.1.1 signs with AES-GMAC where the server offers it, several times faster than AES-CMAC on signed reads"
   ],
-  "downloadedAt": "2026-10-08T14:45:02.815Z",
+  "downloadedAt": "2026-10-09T10:33:07.056Z",
   "updated": "08/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-08.zip",
-  "size": 188494173,
+  "size": 188494201,
   "extractedSize": 440975569,
   "installFiles": [
     "retroarch.jpg",
@@ -14392,6 +14393,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "243590153d77dc8d7e207a962bf3b2ff",
-  "sha256": "c1e3a1d6f2567d0ee354dad495fb746a4bf9be9e108f6c5c4c2a97a276694611"
+  "md5": "2404c05b5091e6f6c2f0b1efbf636030",
+  "sha256": "abe9823ad7db364c642debfa5a4cbef513e236f56254ac3d72ba286dc3578204"
 }
