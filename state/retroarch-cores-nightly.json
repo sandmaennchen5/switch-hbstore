@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-10-08",
+  "version": "2026-10-10",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -118,12 +118,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-10-09T10:32:24.552Z",
-  "updated": "08/10/2026",
+  "downloadedAt": "2026-10-10T09:50:01.041Z",
+  "updated": "10/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-08.zip",
-  "size": 1078810432,
-  "extractedSize": 2952250994,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-10.zip",
+  "size": 1096082500,
+  "extractedSize": 2988030754,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -411,6 +411,7 @@
     "retroarch/info/testvulkan_async_compute_libretro.info",
     "retroarch/info/testvulkan_libretro.info",
     "retroarch/info/tgbdual_libretro.info",
+    "retroarch/info/tgpulse_next_m1_libretro.info",
     "retroarch/info/theodore_libretro.info",
     "retroarch/info/thepowdertoy_libretro.info",
     "retroarch/info/tia_libretro.info",
@@ -885,6 +886,7 @@
     "U: retroarch/info/testvulkan_async_compute_libretro.info",
     "U: retroarch/info/testvulkan_libretro.info",
     "U: retroarch/info/tgbdual_libretro.info",
+    "U: retroarch/info/tgpulse_next_m1_libretro.info",
     "U: retroarch/info/theodore_libretro.info",
     "U: retroarch/info/thepowdertoy_libretro.info",
     "U: retroarch/info/tia_libretro.info",
@@ -1074,6 +1076,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "4c0150067b40a77f05221b054f7ab6c4",
-  "sha256": "561650f938a776d772d3d64253b1b34f1dfa76f8fbbae3a0ca71e80b866f2de3"
+  "md5": "f0aeb3e4889ca81ea7c261641e12eec0",
+  "sha256": "a1e96382cd1856aab9eca12238d880ba34879c1b12abc8d59d8c816bf8fbc5d5"
 }

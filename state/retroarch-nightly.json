@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-10-08",
+  "version": "2026-10-10",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -231,12 +231,12 @@
     "--- 30.9.2026 ---",
     "+ Hinzugefügt: NETWORK: SMB 3.1.1 signs with AES-GMAC where the server offers it, several times faster than AES-CMAC on signed reads"
   ],
-  "downloadedAt": "2026-10-09T10:33:07.056Z",
-  "updated": "08/10/2026",
+  "downloadedAt": "2026-10-10T09:50:41.095Z",
+  "updated": "10/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-08.zip",
-  "size": 188494201,
-  "extractedSize": 440975569,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-10.zip",
+  "size": 189360890,
+  "extractedSize": 442754692,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4242,6 +4242,7 @@
     "retroarch/info/testvulkan_async_compute_libretro.info",
     "retroarch/info/testvulkan_libretro.info",
     "retroarch/info/tgbdual_libretro.info",
+    "retroarch/info/tgpulse_next_m1_libretro.info",
     "retroarch/info/theodore_libretro.info",
     "retroarch/info/thepowdertoy_libretro.info",
     "retroarch/info/tia_libretro.info",
@@ -11319,6 +11320,7 @@
     "U: retroarch/info/testvulkan_async_compute_libretro.info",
     "U: retroarch/info/testvulkan_libretro.info",
     "U: retroarch/info/tgbdual_libretro.info",
+    "U: retroarch/info/tgpulse_next_m1_libretro.info",
     "U: retroarch/info/theodore_libretro.info",
     "U: retroarch/info/thepowdertoy_libretro.info",
     "U: retroarch/info/tia_libretro.info",
@@ -14393,6 +14395,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "2404c05b5091e6f6c2f0b1efbf636030",
-  "sha256": "abe9823ad7db364c642debfa5a4cbef513e236f56254ac3d72ba286dc3578204"
+  "md5": "38cda2dd9eb93cd3392e80371d93eb8c",
+  "sha256": "12c6a3c56ae296fe58bb782378f9263c5b39bc18a19cf2d088fbd0a428798651"
 }
