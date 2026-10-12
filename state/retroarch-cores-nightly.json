@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-10-10",
+  "version": "2026-10-11",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -118,12 +118,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-10-10T09:50:01.041Z",
-  "updated": "10/10/2026",
+  "downloadedAt": "2026-10-12T10:46:31.846Z",
+  "updated": "11/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-10.zip",
-  "size": 1096082500,
-  "extractedSize": 2988030754,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-11.zip",
+  "size": 1099871705,
+  "extractedSize": 2998054835,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -250,6 +250,7 @@
     "retroarch/info/hbmame_libretro.info",
     "retroarch/info/higan_sfc_libretro.info",
     "retroarch/info/holani_libretro.info",
+    "retroarch/info/hyperscanemu_libretro.info",
     "retroarch/info/imageviewer_libretro.info",
     "retroarch/info/irogb_libretro.info",
     "retroarch/info/ishiiruka_libretro.info",
@@ -345,7 +346,7 @@
     "retroarch/info/playdiaemu_libretro.info",
     "retroarch/info/pocketcdg_libretro.info",
     "retroarch/info/pokemini_libretro.info",
-    "retroarch/info/pokketstation_libretro.info",
+    "retroarch/info/pokket_libretro.info",
     "retroarch/info/potator_libretro.info",
     "retroarch/info/ppsspp_libretro.info",
     "retroarch/info/prboom_libretro.info",
@@ -725,6 +726,7 @@
     "U: retroarch/info/hbmame_libretro.info",
     "U: retroarch/info/higan_sfc_libretro.info",
     "U: retroarch/info/holani_libretro.info",
+    "U: retroarch/info/hyperscanemu_libretro.info",
     "U: retroarch/info/imageviewer_libretro.info",
     "U: retroarch/info/irogb_libretro.info",
     "U: retroarch/info/ishiiruka_libretro.info",
@@ -820,7 +822,7 @@
     "U: retroarch/info/playdiaemu_libretro.info",
     "U: retroarch/info/pocketcdg_libretro.info",
     "U: retroarch/info/pokemini_libretro.info",
-    "U: retroarch/info/pokketstation_libretro.info",
+    "U: retroarch/info/pokket_libretro.info",
     "U: retroarch/info/potator_libretro.info",
     "U: retroarch/info/ppsspp_libretro.info",
     "U: retroarch/info/prboom_libretro.info",
@@ -1076,6 +1078,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "f0aeb3e4889ca81ea7c261641e12eec0",
-  "sha256": "a1e96382cd1856aab9eca12238d880ba34879c1b12abc8d59d8c816bf8fbc5d5"
+  "md5": "16e600ddfb6b82098d7fa60793150f5c",
+  "sha256": "fcd5b7ca43ea438d3c4243f17e2f4833a090fa8eea83301506f0377a154e9f9d"
 }
