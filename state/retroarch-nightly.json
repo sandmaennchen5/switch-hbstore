@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-10-14",
+  "version": "2026-10-18",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -253,12 +253,12 @@
     "--- 4.10.2026 ---",
     "+ Hinzugefügt: INPUT/SDL3: Fix stall on window focus with threaded video"
   ],
-  "downloadedAt": "2026-10-16T08:12:14.861Z",
-  "updated": "14/10/2026",
+  "downloadedAt": "2026-10-19T08:52:01.091Z",
+  "updated": "18/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-14.zip",
-  "size": 189480347,
-  "extractedSize": 442008530,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-18.zip",
+  "size": 189581251,
+  "extractedSize": 442194600,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -3757,6 +3757,7 @@
     "retroarch/overlays/effects/scanlines/aperture-grille-4x-1280x720.cfg",
     "retroarch/overlays/effects/scanlines/aperture-grille-4x-1920x1080.cfg",
     "retroarch/overlays/effects/scanlines/aperture-grille-5x-1280x720.cfg",
+    "retroarch/overlays/effects/scanlines/aperture-grille-5x-1440x1080.cfg",
     "retroarch/overlays/effects/scanlines/aperture-grille-5x-1920x1080.cfg",
     "retroarch/overlays/effects/scanlines/crt-royale-scanlines-vertical-interlacing-thin.cfg",
     "retroarch/overlays/effects/scanlines/crt-royale-scanlines-vertical-interlacing.cfg",
@@ -3810,6 +3811,7 @@
     "retroarch/overlays/effects/scanlines/img/aperture-grille-4x-1280x720.png",
     "retroarch/overlays/effects/scanlines/img/aperture-grille-4x-1920x1080.png",
     "retroarch/overlays/effects/scanlines/img/aperture-grille-5x-1280x720.png",
+    "retroarch/overlays/effects/scanlines/img/aperture-grille-5x-1440x1080.png",
     "retroarch/overlays/effects/scanlines/img/aperture-grille-5x-1920x1080.png",
     "retroarch/overlays/effects/scanlines/img/crt-royale-scanlines-vertical-interlacing-thin.png",
     "retroarch/overlays/effects/scanlines/img/crt-royale-scanlines-vertical-interlacing.png",
@@ -10841,6 +10843,7 @@
     "U: retroarch/overlays/effects/scanlines/aperture-grille-4x-1280x720.cfg",
     "U: retroarch/overlays/effects/scanlines/aperture-grille-4x-1920x1080.cfg",
     "U: retroarch/overlays/effects/scanlines/aperture-grille-5x-1280x720.cfg",
+    "U: retroarch/overlays/effects/scanlines/aperture-grille-5x-1440x1080.cfg",
     "U: retroarch/overlays/effects/scanlines/aperture-grille-5x-1920x1080.cfg",
     "U: retroarch/overlays/effects/scanlines/crt-royale-scanlines-vertical-interlacing-thin.cfg",
     "U: retroarch/overlays/effects/scanlines/crt-royale-scanlines-vertical-interlacing.cfg",
@@ -10894,6 +10897,7 @@
     "U: retroarch/overlays/effects/scanlines/img/aperture-grille-4x-1280x720.png",
     "U: retroarch/overlays/effects/scanlines/img/aperture-grille-4x-1920x1080.png",
     "U: retroarch/overlays/effects/scanlines/img/aperture-grille-5x-1280x720.png",
+    "U: retroarch/overlays/effects/scanlines/img/aperture-grille-5x-1440x1080.png",
     "U: retroarch/overlays/effects/scanlines/img/aperture-grille-5x-1920x1080.png",
     "U: retroarch/overlays/effects/scanlines/img/crt-royale-scanlines-vertical-interlacing-thin.png",
     "U: retroarch/overlays/effects/scanlines/img/crt-royale-scanlines-vertical-interlacing.png",
@@ -14429,6 +14433,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "2fcec784a31200563eb8220246abc4e1",
-  "sha256": "f40c830f7105a8001628441ea7188fc11dd9c80eda0a4e346b30a3c00a8838f0"
+  "md5": "7e83a5f457c24db685a25cc963d03f10",
+  "sha256": "2c3578e72378c40d7a74e6277b838f3d485b41a30067fbe7d211bdc8ba315b0c"
 }
