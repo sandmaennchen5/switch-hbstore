@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-10-18",
+  "version": "2026-10-19",
   "changelog": [
     "=== Future ===",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -253,12 +253,12 @@
     "--- 4.10.2026 ---",
     "+ Hinzugefügt: INPUT/SDL3: Fix stall on window focus with threaded video"
   ],
-  "downloadedAt": "2026-10-19T08:52:01.091Z",
-  "updated": "18/10/2026",
+  "downloadedAt": "2026-10-20T08:33:04.542Z",
+  "updated": "19/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-18.zip",
-  "size": 189581251,
-  "extractedSize": 442194600,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-19.zip",
+  "size": 189623886,
+  "extractedSize": 442272424,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -14433,6 +14433,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "7e83a5f457c24db685a25cc963d03f10",
-  "sha256": "2c3578e72378c40d7a74e6277b838f3d485b41a30067fbe7d211bdc8ba315b0c"
+  "md5": "c08c51d6bcf28948b4941cbbe0a4ae84",
+  "sha256": "9354c7207cd8b1ba8cbd18c9ba3c3427f3e3c7dea3ae0d406aa7f077119eaa27"
 }

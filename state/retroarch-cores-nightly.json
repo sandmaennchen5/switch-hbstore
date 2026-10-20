@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-10-18",
+  "version": "2026-10-19",
   "changelog": [
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -129,12 +129,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-10-19T08:51:18.117Z",
-  "updated": "18/10/2026",
+  "downloadedAt": "2026-10-20T08:32:24.569Z",
+  "updated": "19/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-18.zip",
-  "size": 1115141842,
-  "extractedSize": 3034552720,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-19.zip",
+  "size": 1123020433,
+  "extractedSize": 3054587702,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -514,6 +514,7 @@
     "retroarch/cores/frodo_libretro_libnx.nro",
     "retroarch/cores/fuse_libretro_libnx.nro",
     "retroarch/cores/gam4980_libretro_libnx.nro",
+    "retroarch/cores/gametank_libretro_libnx.nro",
     "retroarch/cores/gearboy_libretro_libnx.nro",
     "retroarch/cores/gearcoleco_libretro_libnx.nro",
     "retroarch/cores/geargrafx_libretro_libnx.nro",
@@ -994,6 +995,7 @@
     "U: retroarch/cores/frodo_libretro_libnx.nro",
     "U: retroarch/cores/fuse_libretro_libnx.nro",
     "U: retroarch/cores/gam4980_libretro_libnx.nro",
+    "U: retroarch/cores/gametank_libretro_libnx.nro",
     "U: retroarch/cores/gearboy_libretro_libnx.nro",
     "U: retroarch/cores/gearcoleco_libretro_libnx.nro",
     "U: retroarch/cores/geargrafx_libretro_libnx.nro",
@@ -1097,6 +1099,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "388c8742f5595939c882a635e156251f",
-  "sha256": "a4c69b0d79cf44077adac6b777f16b831be25569b9ef39bae867b075d96d375a"
+  "md5": "84cb5e5b6eaab569b5ea940fe6e0d87f",
+  "sha256": "34b018be6289a43442ffcd353f18d4edcb8c03f101be6230782ffd36d01a7195"
 }
