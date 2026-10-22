@@ -5,11 +5,11 @@
 ```json
 {
   "title": "switch-hbas",
-  "baseUrl": "https://hbas.sandybos.eu",
-  "feedbackUrl": "https://hbas.sandybos.eu/api/feedback.php",
+  "baseUrl": "https://hbas.sandmaennchen5.de",
+  "feedbackUrl": "https://hbas.sandmaennchen5.de/api/feedback.php",
   "githubRepositoryUrl": "https://github.com/sandmaennchen5/switch-hbstore",
   "githubBranch": "main",
-  "downloadCountsUrl": "https://hbas.sandybos.eu/history/files_Switch.json",
+  "downloadCountsUrl": "https://hbas.sandmaennchen5.de/history/files_Switch.json",
   "generatePackagesJson": false,
   "channels": ["stable", "beta", "nightly"]
 }

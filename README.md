@@ -11,7 +11,7 @@ npm install
 npm run all
 ```
 
-Danach liegen die veröffentlichbaren Dateien unter `site/`. Die Standardkonfiguration veröffentlicht sie auf `https://hbas.sandybos.eu`; die Kanal-URL lautet beispielsweise `https://hbas.sandybos.eu/stable/repo.json`. Zusätzlich enthält `https://hbas.sandybos.eu/repo.json` alle Kanäle gemeinsam. Ein Paket, das mehreren Kanälen zugeordnet ist, kann darin als eigener Eintrag je Kanal vorkommen.
+Danach liegen die veröffentlichbaren Dateien unter `site/`. Die Standardkonfiguration veröffentlicht sie auf `https://hbas.sandmaennchen5.de`; die Kanal-URL lautet beispielsweise `https://hbas.sandmaennchen5.de/stable/repo.json`. Zusätzlich enthält `https://hbas.sandmaennchen5.de/repo.json` alle Kanäle gemeinsam. Ein Paket, das mehreren Kanälen zugeordnet ist, kann darin als eigener Eintrag je Kanal vorkommen.
 
 ## Paket anlegen
 
