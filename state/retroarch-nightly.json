@@ -3,6 +3,7 @@
   "version": "2026-10-23",
   "changelog": [
     "=== Future ===",
+    "NETPLAY/REPLAY: Record all players' resolved inputs in BSV replays, committing each frame and its checkpoints only after rollback confirmation",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
     "AUDIO: SDL3 audio and microphone drivers",
@@ -221,6 +222,8 @@
     "VIDEO/SWITCHRES: Game overrides",
     "VIDEO/VULKAN: Add VK_EXT_full_screen_exclusive extension support for Windows",
     "=== Änderungsverlauf (GitHub) ===",
+    "--- 24.10.2026 ---",
+    "+ Hinzugefügt: NETPLAY/REPLAY: Record all players' resolved inputs in BSV replays, committing each frame and its checkpoints only after rollback confirmation",
     "--- 15.10.2026 ---",
     "+ Hinzugefügt: NETWORK: MCP server offers the menu buttons, the disc hotkeys, the driver restarts, the state slots and the replay controls as five tools, MENU, DISK, REINIT, STATE and REPLAY, rather than nineteen; each is still a command of its own, and SAVE_FILES and LOAD_FILES are commands only",
     "+ Hinzugefügt: NETWORK: New network command WATCH, so RUN_FRAMES, PRESS and RUN_UNTIL carry the bytes an assistant watches along with their own answer instead of needing a read after every step",
@@ -249,15 +252,13 @@
     "+ Hinzugefügt: INPUT/SDL: Enable pressure sensitive buttons for PS3 controllers when SDL_JOYSTICK_HIDAPI_PS3=1",
     "+ Hinzugefügt: INPUT/SDL3: Enable pressure sensitive buttons for PS3 controllers when SDL_JOYSTICK_HIDAPI_PS3=1",
     "--- 4.10.2026 ---",
-    "− Entfernt: INPUT/SDL3: Fix stall on window focus with threaded video",
-    "--- 4.10.2026 ---",
-    "+ Hinzugefügt: INPUT/SDL3: Fix stall on window focus with threaded video"
+    "− Entfernt: INPUT/SDL3: Fix stall on window focus with threaded video"
   ],
-  "downloadedAt": "2026-10-23T08:35:08.618Z",
+  "downloadedAt": "2026-10-24T08:10:45.172Z",
   "updated": "23/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-23.zip",
-  "size": 189864383,
+  "size": 189864446,
   "extractedSize": 442262889,
   "installFiles": [
     "retroarch.jpg",
@@ -14443,6 +14444,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "342d21a7abfe1e122e451eb0f1580a33",
-  "sha256": "a258a64d7c3e4f4298e7100c95417a1889d6f9f5a2afa5a639a5bfd6e7b80c3a"
+  "md5": "16ca64a2aae6a48e4f4be3892fb764a8",
+  "sha256": "1f1dbdd7711abb18b612f34532fb6b951ea38549c7fbfbfcb577546b0bb23292"
 }
