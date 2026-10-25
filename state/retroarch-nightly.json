@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-10-23",
+  "version": "2026-10-25",
   "changelog": [
     "=== Future ===",
     "NETPLAY/REPLAY: Record all players' resolved inputs in BSV replays, committing each frame and its checkpoints only after rollback confirmation",
@@ -254,12 +254,12 @@
     "--- 4.10.2026 ---",
     "− Entfernt: INPUT/SDL3: Fix stall on window focus with threaded video"
   ],
-  "downloadedAt": "2026-10-24T08:10:45.172Z",
-  "updated": "23/10/2026",
+  "downloadedAt": "2026-10-25T08:27:52.511Z",
+  "updated": "25/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-23.zip",
-  "size": 189864446,
-  "extractedSize": 442262889,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-25.zip",
+  "size": 189670633,
+  "extractedSize": 440363432,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4192,6 +4192,7 @@
     "retroarch/info/opentyrian_libretro.info",
     "retroarch/info/opera_libretro.info",
     "retroarch/info/panda3ds_libretro.info",
+    "retroarch/info/parallel_dc_libretro.info",
     "retroarch/info/parallel_n64_debug_libretro.info",
     "retroarch/info/parallel_n64_libretro.info",
     "retroarch/info/pascal_pong_libretro.info",
@@ -11283,6 +11284,7 @@
     "U: retroarch/info/opentyrian_libretro.info",
     "U: retroarch/info/opera_libretro.info",
     "U: retroarch/info/panda3ds_libretro.info",
+    "U: retroarch/info/parallel_dc_libretro.info",
     "U: retroarch/info/parallel_n64_debug_libretro.info",
     "U: retroarch/info/parallel_n64_libretro.info",
     "U: retroarch/info/pascal_pong_libretro.info",
@@ -14444,6 +14446,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "16ca64a2aae6a48e4f4be3892fb764a8",
-  "sha256": "1f1dbdd7711abb18b612f34532fb6b951ea38549c7fbfbfcb577546b0bb23292"
+  "md5": "a4d54ef12ecc87f2575c1a7fc53b83dc",
+  "sha256": "09d57ed24f0cf8c26c85e81f7e936975c166aadef6f6464422bd93a2211be2b8"
 }

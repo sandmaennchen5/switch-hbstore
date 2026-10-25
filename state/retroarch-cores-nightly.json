@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-10-23",
+  "version": "2026-10-25",
   "changelog": [
     "NETPLAY/REPLAY: Record all players' resolved inputs in BSV replays, committing each frame and its checkpoints only after rollback confirmation",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -130,12 +130,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-10-24T08:10:06.048Z",
-  "updated": "23/10/2026",
+  "downloadedAt": "2026-10-25T08:27:13.520Z",
+  "updated": "25/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-23.zip",
-  "size": 1139790326,
-  "extractedSize": 3098417745,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-25.zip",
+  "size": 1147708115,
+  "extractedSize": 3103389792,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -344,6 +344,7 @@
     "retroarch/info/opentyrian_libretro.info",
     "retroarch/info/opera_libretro.info",
     "retroarch/info/panda3ds_libretro.info",
+    "retroarch/info/parallel_dc_libretro.info",
     "retroarch/info/parallel_n64_debug_libretro.info",
     "retroarch/info/parallel_n64_libretro.info",
     "retroarch/info/pascal_pong_libretro.info",
@@ -563,6 +564,7 @@
     "retroarch/cores/nxengine_libretro_libnx.nro",
     "retroarch/cores/o2em_libretro_libnx.nro",
     "retroarch/cores/opera_libretro_libnx.nro",
+    "retroarch/cores/parallel_dc_libretro_libnx.nro",
     "retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
     "retroarch/cores/pd777_libretro_libnx.nro",
     "retroarch/cores/picodrive_libretro_libnx.nro",
@@ -828,6 +830,7 @@
     "U: retroarch/info/opentyrian_libretro.info",
     "U: retroarch/info/opera_libretro.info",
     "U: retroarch/info/panda3ds_libretro.info",
+    "U: retroarch/info/parallel_dc_libretro.info",
     "U: retroarch/info/parallel_n64_debug_libretro.info",
     "U: retroarch/info/parallel_n64_libretro.info",
     "U: retroarch/info/pascal_pong_libretro.info",
@@ -1047,6 +1050,7 @@
     "U: retroarch/cores/nxengine_libretro_libnx.nro",
     "U: retroarch/cores/o2em_libretro_libnx.nro",
     "U: retroarch/cores/opera_libretro_libnx.nro",
+    "U: retroarch/cores/parallel_dc_libretro_libnx.nro",
     "U: retroarch/cores/pcsx_rearmed_libretro_libnx.nro",
     "U: retroarch/cores/pd777_libretro_libnx.nro",
     "U: retroarch/cores/picodrive_libretro_libnx.nro",
@@ -1106,6 +1110,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "d6f3a4c1177e7537e162a17e2cc91361",
-  "sha256": "7eb08eaa0589b7dde898c56c570d0ae43051086c472746ef3c58d1c780672ddb"
+  "md5": "d58571eb5cfc848f78eeb696499b5179",
+  "sha256": "9096f79f256dcbd19a15c710b5057f38b2a4936a4610e9701c53ffc39ca0506e"
 }
