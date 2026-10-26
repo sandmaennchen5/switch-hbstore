@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-10-25",
+  "version": "2026-10-26",
   "changelog": [
     "=== Future ===",
     "NETPLAY/REPLAY: Record all players' resolved inputs in BSV replays, committing each frame and its checkpoints only after rollback confirmation",
@@ -254,12 +254,12 @@
     "--- 4.10.2026 ---",
     "− Entfernt: INPUT/SDL3: Fix stall on window focus with threaded video"
   ],
-  "downloadedAt": "2026-10-25T08:27:52.511Z",
-  "updated": "25/10/2026",
+  "downloadedAt": "2026-10-26T08:57:24.550Z",
+  "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-25.zip",
-  "size": 189670633,
-  "extractedSize": 440363432,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-26.zip",
+  "size": 189696359,
+  "extractedSize": 440414319,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4327,6 +4327,7 @@
     "retroarch/info/yabause_libretro.info",
     "retroarch/info/yaps2_libretro.info",
     "retroarch/info/ymir_libretro.info",
+    "retroarch/info/zcdi_libretro.info",
     "retroarch/info/zesarpcw_libretro.info",
     "retroarch/filters/2xBR.filt",
     "retroarch/filters/2xSaI.filt",
@@ -11419,6 +11420,7 @@
     "U: retroarch/info/yabause_libretro.info",
     "U: retroarch/info/yaps2_libretro.info",
     "U: retroarch/info/ymir_libretro.info",
+    "U: retroarch/info/zcdi_libretro.info",
     "U: retroarch/info/zesarpcw_libretro.info",
     "U: retroarch/filters/2xBR.filt",
     "U: retroarch/filters/2xSaI.filt",
@@ -14446,6 +14448,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "a4d54ef12ecc87f2575c1a7fc53b83dc",
-  "sha256": "09d57ed24f0cf8c26c85e81f7e936975c166aadef6f6464422bd93a2211be2b8"
+  "md5": "8fae28a0aa1f645c70bc57f87865caa8",
+  "sha256": "d9559f238e4732c64dc0f44695c2db29bbd452bce8a937d2889298998acd4b14"
 }
