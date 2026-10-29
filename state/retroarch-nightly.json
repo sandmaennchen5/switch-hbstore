@@ -250,15 +250,13 @@
     "--- 5.10.2026 ---",
     "+ Hinzugefügt: INPUT: Remapped pressure sensitive buttons keep their pressure",
     "+ Hinzugefügt: INPUT/SDL: Enable pressure sensitive buttons for PS3 controllers when SDL_JOYSTICK_HIDAPI_PS3=1",
-    "+ Hinzugefügt: INPUT/SDL3: Enable pressure sensitive buttons for PS3 controllers when SDL_JOYSTICK_HIDAPI_PS3=1",
-    "--- 4.10.2026 ---",
-    "− Entfernt: INPUT/SDL3: Fix stall on window focus with threaded video"
+    "+ Hinzugefügt: INPUT/SDL3: Enable pressure sensitive buttons for PS3 controllers when SDL_JOYSTICK_HIDAPI_PS3=1"
   ],
-  "downloadedAt": "2026-10-26T08:57:24.550Z",
+  "downloadedAt": "2026-10-29T09:58:43.042Z",
   "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-26.zip",
-  "size": 189696359,
+  "size": 189696321,
   "extractedSize": 440414319,
   "installFiles": [
     "retroarch.jpg",
@@ -14448,6 +14446,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "8fae28a0aa1f645c70bc57f87865caa8",
-  "sha256": "d9559f238e4732c64dc0f44695c2db29bbd452bce8a937d2889298998acd4b14"
+  "md5": "4ea315bd740a5fa58894b744556acafc",
+  "sha256": "9fe8db2ab79a3fedffa3469cd8489f49a959d94d5c8eb77d533d6e74e0f072dd"
 }
