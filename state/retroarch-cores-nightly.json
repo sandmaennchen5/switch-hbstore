@@ -2,6 +2,7 @@
   "id": "retroarch-cores-nightly",
   "version": "2026-10-26",
   "changelog": [
+    "VULKAN: Keep the pipeline cache on disk between runs, one file per GPU, so stock and slang shader pipelines are not recompiled by the driver on every launch, preset load or driver reinit",
     "NETPLAY/REPLAY: Record all players' resolved inputs in BSV replays, committing each frame and its checkpoints only after rollback confirmation",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
     "AUDIO: ASIO driver for Windows platforms",
@@ -130,11 +131,11 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-10-26T08:56:45.956Z",
+  "downloadedAt": "2026-11-03T10:55:28.652Z",
   "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-26.zip",
-  "size": 1149133666,
+  "size": 1149133752,
   "extractedSize": 3106299687,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
@@ -1112,6 +1113,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "9d8f4ea0b11504a4219d1770a7a0546f",
-  "sha256": "b4dfa99d8f613ec6ef6b53c7d6ac9e3614abcb82332d60f4ce0475e31f4a08af"
+  "md5": "c4579f01052f91a52ac2ab916d823e7b",
+  "sha256": "f21195e3ef6d5a0693b89ad45584f2db63cdecc24deff815ab883174729bd7a3"
 }
