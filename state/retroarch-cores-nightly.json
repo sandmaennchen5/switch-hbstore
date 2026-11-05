@@ -119,6 +119,7 @@
     "SCAN: Interpret M3U files during scanning",
     "SCAN: Merge manual and automatic scan into a more flexible setup",
     "SCAN: Improve GDI content recognition",
+    "SCAN: --scan runs every path and exits with what the scans did; Manual Scan options, --scan-refresh and --scan-refresh-all on the command line; Refresh All Playlists in Manage Playlists",
     "SHADER: Display on-screen error when preset load fails",
     "SHADER: Add gyroscope / accelerometer uniforms for shaders",
     "SHADER: Add aggressive shader caching to slang shader backend",
@@ -131,11 +132,11 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-11-03T10:55:28.652Z",
+  "downloadedAt": "2026-11-05T10:57:03.350Z",
   "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-26.zip",
-  "size": 1149133752,
+  "size": 1149133821,
   "extractedSize": 3106299687,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
@@ -1113,6 +1114,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "c4579f01052f91a52ac2ab916d823e7b",
-  "sha256": "f21195e3ef6d5a0693b89ad45584f2db63cdecc24deff815ab883174729bd7a3"
+  "md5": "b38b824213a0cb0f82f2b32e3a2dffc5",
+  "sha256": "3128d0a4acc0f000cb526a9931fc68753ca7e2e7f515e3c15a0caaf20448b992"
 }

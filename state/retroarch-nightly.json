@@ -120,6 +120,7 @@
     "SCAN: Interpret M3U files during scanning",
     "SCAN: Merge manual and automatic scan into a more flexible setup",
     "SCAN: Improve GDI content recognition",
+    "SCAN: --scan runs every path and exits with what the scans did; Manual Scan options, --scan-refresh and --scan-refresh-all on the command line; Refresh All Playlists in Manage Playlists",
     "SHADER: Display on-screen error when preset load fails",
     "SHADER: Add gyroscope / accelerometer uniforms for shaders",
     "SHADER: Add aggressive shader caching to slang shader backend",
@@ -223,6 +224,8 @@
     "VIDEO/SWITCHRES: Game overrides",
     "VIDEO/VULKAN: Add VK_EXT_full_screen_exclusive extension support for Windows",
     "=== Änderungsverlauf (GitHub) ===",
+    "--- 4.11.2026 ---",
+    "+ Hinzugefügt: SCAN: --scan runs every path and exits with what the scans did; Manual Scan options, --scan-refresh and --scan-refresh-all on the command line; Refresh All Playlists in Manage Playlists",
     "--- 2.11.2026 ---",
     "+ Hinzugefügt: VULKAN: Keep the pipeline cache on disk between runs, one file per GPU, so stock and slang shader pipelines are not recompiled by the driver on every launch, preset load or driver reinit",
     "--- 24.10.2026 ---",
@@ -243,17 +246,13 @@
     "+ Hinzugefügt: NETWORK: MCP server: the hotkeys that step a selection a program cannot read back are no longer offered as tools, where a command taking the value outright already is; all of them remain network commands",
     "+ Hinzugefügt: NETWORK: Fix LOAD_CONTENT closing the running content before finding that the core or content path it was given does not exist",
     "--- 9.10.2026 ---",
-    "+ Hinzugefügt: CLOUDSYNC: Add --cloudsync command line option to run a sync and exit",
-    "--- 5.10.2026 ---",
-    "+ Hinzugefügt: NETWORK: MCP server: tools whose work runs over later frames (content, states, replays, shaders, AI service) answer with its outcome once it is through, and the server stays up across content loads",
-    "+ Hinzugefügt: NETWORK: Fix SAVE_STATE_SLOT freezing RetroArch with cores such as bsnes",
-    "+ Hinzugefügt: NETWORK: Fix the SAVE_FILES and LOAD_FILES failure reply, and LOAD_CORE reporting a core that failed to load as loaded"
+    "+ Hinzugefügt: CLOUDSYNC: Add --cloudsync command line option to run a sync and exit"
   ],
-  "downloadedAt": "2026-11-03T10:56:12.069Z",
+  "downloadedAt": "2026-11-05T10:57:38.103Z",
   "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-26.zip",
-  "size": 189696388,
+  "size": 189696449,
   "extractedSize": 440414319,
   "installFiles": [
     "retroarch.jpg",
@@ -14443,6 +14442,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "dbbeaccf1dd5ac41eaf86c3839cd05d7",
-  "sha256": "675b3c985714d41a9468fd8a88255353641efd31590a34550f813e302288d22b"
+  "md5": "fea39b57af8e66f66cf5db4063e555fc",
+  "sha256": "3fc32e382ba2799c3f7c94d8f33eba7275fcbf9807b0d5c4349b2072e29d021d"
 }
