@@ -224,6 +224,10 @@
     "VIDEO/SWITCHRES: Game overrides",
     "VIDEO/VULKAN: Add VK_EXT_full_screen_exclusive extension support for Windows",
     "=== Änderungsverlauf (GitHub) ===",
+    "--- 8.11.2026 ---",
+    "− Entfernt: LIBRETRO-COMMON: Add optional C89 XMA raw-frame and WMA v1/v2/Pro decoders with borrowed float PCM, reusable storage and no FFmpeg runtime dependency",
+    "--- 8.11.2026 ---",
+    "+ Hinzugefügt: LIBRETRO-COMMON: Add optional C89 XMA raw-frame and WMA v1/v2/Pro decoders with borrowed float PCM, reusable storage and no FFmpeg runtime dependency",
     "--- 4.11.2026 ---",
     "+ Hinzugefügt: SCAN: --scan runs every path and exits with what the scans did; Manual Scan options, --scan-refresh and --scan-refresh-all on the command line; Refresh All Playlists in Manage Playlists",
     "--- 2.11.2026 ---",
@@ -237,22 +241,13 @@
     "+ Hinzugefügt: NETWORK: New network command GET_INPUT, reporting what a player holds without changing it",
     "+ Hinzugefügt: NETWORK: LOAD_CORE says why it failed, and neither it nor LOAD_CONTENT unloads the running core for a path that turns out not to be one",
     "--- 15.10.2026 ---",
-    "+ Hinzugefügt: NETWORK: New network command RUN_UNTIL, running the content until a byte at a system address meets a condition, instead of running a few frames and reading it again",
-    "--- 14.10.2026 ---",
-    "+ Hinzugefügt: NETWORK: New network command PRESS, holding RetroPad buttons, running a number of frames and letting them go in one request",
-    "+ Hinzugefügt: NETWORK: SET_INPUT holds several controls at once, joined by \"+\": \"right+a\" runs and jumps in one request rather than two",
-    "+ Hinzugefügt: NETWORK: LIST_CORES takes a content path, listing only the cores that can load it",
-    "+ Hinzugefügt: NETWORK: MCP server: the replies that are rows of fields are given as structuredContent as well as text, with an outputSchema describing their columns",
-    "+ Hinzugefügt: NETWORK: MCP server: the hotkeys that step a selection a program cannot read back are no longer offered as tools, where a command taking the value outright already is; all of them remain network commands",
-    "+ Hinzugefügt: NETWORK: Fix LOAD_CONTENT closing the running content before finding that the core or content path it was given does not exist",
-    "--- 9.10.2026 ---",
-    "+ Hinzugefügt: CLOUDSYNC: Add --cloudsync command line option to run a sync and exit"
+    "+ Hinzugefügt: NETWORK: New network command RUN_UNTIL, running the content until a byte at a system address meets a condition, instead of running a few frames and reading it again"
   ],
-  "downloadedAt": "2026-11-05T10:57:38.103Z",
+  "downloadedAt": "2026-11-09T11:30:28.391Z",
   "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-26.zip",
-  "size": 189696449,
+  "size": 189696498,
   "extractedSize": 440414319,
   "installFiles": [
     "retroarch.jpg",
@@ -14442,6 +14437,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "fea39b57af8e66f66cf5db4063e555fc",
-  "sha256": "3fc32e382ba2799c3f7c94d8f33eba7275fcbf9807b0d5c4349b2072e29d021d"
+  "md5": "eff0524162cf901a93c0904aaed3f245",
+  "sha256": "72a6e6ea7c1f42b3168e4d5b8b60fce1f8346f2361a3a14aa5788d24dd9617da"
 }
