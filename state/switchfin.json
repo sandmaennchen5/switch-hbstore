@@ -1,22 +1,28 @@
 {
   "id": "switchfin",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "changelog": [
     "Added",
-    "add eBook viewer with MuPDF support",
-    "add local file gallery viewing",
-    "add unplayed item count badge to media cards",
+    "add resume download with HTTP range/ETag support and progress bar for cancelled items",
+    "auto-download subtitles and fallback subtitle URL when `DeliveryUrl` is missing",
+    "add configurable download path setting",
     "Fixed",
-    "improve websocket receive loop to handle stop condition correctly",
-    "PS4: improve shader handling of libmpv",
-    "![download](https://img.shields.io/github/downloads/dragonflylee/switchfin/0.9.4/total?label=Downloads)"
+    "support the new Quick Connect API (#272)",
+    "PS4: fix bitmap subtitle bluescreen (#271)",
+    "image: keep texture owned by cache and trim near-white border bars causing smears (#243)",
+    "websocket: harden receive loop, reconnect on normal close and fix teardownt",
+    "compare versions numerically in update check",
+    "keep nvtegra decode frames alive across hwaccel reinit",
+    "svg: fix crash when toggling fullscreen on macOS (#165)",
+    "danmaku: reset on-screen danmaku after seeking to prevent overlap (#163)",
+    "![download](https://img.shields.io/github/downloads/dragonflylee/switchfin/0.9.5/total?label=Downloads)"
   ],
-  "downloadedAt": "2026-09-02T07:57:22.802Z",
-  "updated": "25/08/2026",
-  "sourceUrl": "https://github.com/dragonflylee/switchfin/releases/download/0.9.4/Switchfin.nro",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin/switchfin-0.9.4.zip",
-  "size": 40956062,
-  "extractedSize": 65650923,
+  "downloadedAt": "2026-11-11T10:56:59.599Z",
+  "updated": "10/11/2026",
+  "sourceUrl": "https://github.com/dragonflylee/switchfin/releases/download/0.9.5/Switchfin.nro",
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin/switchfin-0.9.5.zip",
+  "size": 42359470,
+  "extractedSize": 67764699,
   "installFiles": [
     "switch/Switchfin/Switchfin.nro"
   ],
@@ -25,6 +31,6 @@
   ],
   "finalized": true,
   "buildKey": "5ad03c61d858d1b2c32201e438dbbd814936d98942db24bd0ace1bfb3fd67dc5",
-  "md5": "c42ff4bbf4b323a9929afaef4f7b8809",
-  "sha256": "1f5a62d7c2e5b438bf01a5b6a93e3d65804fb990d1aa814c973a813d45ff1a57"
+  "md5": "489c79e577569e5bfa1530dbbd92812f",
+  "sha256": "ca4c89fbb2c5f025485044da4961d0aa0d3e261ffb3ac6b1ba338867a5dc3f78"
 }
