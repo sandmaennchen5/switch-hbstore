@@ -2,6 +2,8 @@
   "id": "retroarch-cores-nightly",
   "version": "2026-10-26",
   "changelog": [
+    "LIBRETRO-COMMON/FLAC: 24- and 32-bit FLAC decoded to 16 bits is rounded to the nearest step instead of cut down (every sample was half a step low on average); 16-bit FLAC is unchanged",
+    "LIBRETRO-COMMON/FLAC: A seek in a FLAC that has a seek table lands on the frame asked for (it landed as far past it as the seek point was from the start); rflac_seek_point gives the seek point's frame",
     "VULKAN: Keep the pipeline cache on disk between runs, one file per GPU, so stock and slang shader pipelines are not recompiled by the driver on every launch, preset load or driver reinit",
     "NETPLAY/REPLAY: Record all players' resolved inputs in BSV replays, committing each frame and its checkpoints only after rollback confirmation",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -132,11 +134,11 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-11-05T10:57:03.350Z",
+  "downloadedAt": "2026-11-13T11:00:18.928Z",
   "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-26.zip",
-  "size": 1149133821,
+  "size": 1149133995,
   "extractedSize": 3106299687,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
@@ -1114,6 +1116,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "b38b824213a0cb0f82f2b32e3a2dffc5",
-  "sha256": "3128d0a4acc0f000cb526a9931fc68753ca7e2e7f515e3c15a0caaf20448b992"
+  "md5": "2bba4de2faff03b2c59c9d323a10f447",
+  "sha256": "0b718d99d018d721e4fe7fb047e4eedca855e90a381925a1a2d41d5ea19450c5"
 }
