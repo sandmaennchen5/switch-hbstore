@@ -2,6 +2,13 @@
   "id": "retroarch-cores-nightly",
   "version": "2026-10-26",
   "changelog": [
+    "LIBRETRO-COMMON: features_cpu.c and net_compat.c take retro_posix_source.h first, so a core that builds under a strict feature profile (mame2003-plus: -D_XOPEN_SOURCE=500) still sees clock_nanosleep and getaddrinfo instead of an implicit declaration, an error with GCC 14",
+    "LIBRETRO-COMMON: retro_atomic.h declares its inline helpers with its own RETRO_ATOMIC_INLINE instead of INLINE, so a core that defines INLINE itself (FBNeo, as \"__inline static\") compiles again in C++: since VFS v6 every file that includes file_stream.h reaches retro_atomic.h through vfs.h",
+    "LIBRETRO-COMMON: From the parallel-xbox core's copy: retro_spsc pair writes, two-span borrowed reads and reservations; retro_mpsc, an intrusive multi-producer queue; retro_eventcount_init_lock_free; xxh3_64_pair; and RETRO_DISABLE_HOST_CLOCK with fixed spin counts for builds that must not read the host's clock",
+    "LIBRETRO-COMMON/FILESTREAM: Under a VFS v7 frontend, filestream_get_mapped_ptr hands a core the frontend's mapping of a file it opened with the frequent-access hint, as it does without a frontend VFS; cores that read content in place from the mapping no longer copy it all under RetroArch",
+    "LIBRETRO: VFS API v7 - cores can borrow a file's bytes instead of copying them (view), map a whole file read-only (map), ask which file a handle or path is (identity, stat_identity), what its volume is (volume, stat_volume: read-only, drive kind, mount) and seal or measure it with fs-verity on Linux and Android (verity_enable, verity_measure); libretro-common's filestream and the hybrid VFS take them, and answer \"can't be told\" under a frontend before v7",
+    "LIBRETRO-COMMON/VFS: On Linux, macOS and the BSDs a build without HAVE_MMAP (most cores) reads bulk and stable opens through the file descriptor too, as RetroArch already did, instead of through stdio",
+    "KMS: 'Display Pacing On VBlank Events' holds on the CRTC's vblanks with OpenGL on KMS, where V-Sync off page flips are asynchronous",
     "VULKAN/OPENGL: 'Display Pacing On VBlank Events' also holds Vulkan and OpenGL where they present through DXGI, tear, and the display flips the fullscreen window itself",
     "VIDEO/THREADED: 'Display Pacing On VBlank Events' (off by default): with Display Pacing, V-Sync off and fullscreen, each core frame is released on the display's own vblank events instead of a timer, where the display server has them (Windows) and the driver's present tears (Direct3D 11/12, Vulkan immediate mode); the timer paces everywhere else and whenever the events stop or keep no fixed rate",
     "VIDEO/THREADED: With V-Sync off, Display Pacing holds the core to the content's rate before the first frame is presented too; at content start or after a driver reinit a core ran hundreds or thousands of frames at once with audio sync off as well",
@@ -137,11 +144,11 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-11-16T11:18:34.967Z",
+  "downloadedAt": "2026-11-17T11:54:19.769Z",
   "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-10-26.zip",
-  "size": 1149134321,
+  "size": 1149135148,
   "extractedSize": 3106299687,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
@@ -1119,6 +1126,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "b6de3d9d3dfb2944f325d57f46e4669f",
-  "sha256": "9830f48345bd37ce32c63774c7f6aecfc93de99f2a8c5b21f25122a811eb3881"
+  "md5": "6dd7270672beb0d039c41fdca6ba0004",
+  "sha256": "7c8f3c0c4aefda6d24b15c742e2de1936881328d7e184bbd3a3974c31c8c22de"
 }
