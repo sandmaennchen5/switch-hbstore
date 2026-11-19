@@ -3,6 +3,7 @@
   "version": "2026-10-26",
   "changelog": [
     "=== Future ===",
+    "LIBRETRO-COMMON: gfx/shaders/spirv_words.h, the bottom of a SPIR-V writer and nothing above it: section buffers grown through the caller's own allocator, instructions written with one room check each, string literals, a one-move splice, and one join of the sections into the caller's storage. Header only and C89, with no lock and no global state. rslc writes its SPIR-V through it, word for word as before, and so can a core that makes SPIR-V from its own IR. rslc's function variables are spliced in with one move instead of a copy out and two copies back, and its module is joined straight into the blob's payload",
     "LIBRETRO-COMMON: features_cpu.c and net_compat.c take retro_posix_source.h first, so a core that builds under a strict feature profile (mame2003-plus: -D_XOPEN_SOURCE=500) still sees clock_nanosleep and getaddrinfo instead of an implicit declaration, an error with GCC 14",
     "LIBRETRO-COMMON: retro_atomic.h declares its inline helpers with its own RETRO_ATOMIC_INLINE instead of INLINE, so a core that defines INLINE itself (FBNeo, as \"__inline static\") compiles again in C++: since VFS v6 every file that includes file_stream.h reaches retro_atomic.h through vfs.h",
     "LIBRETRO-COMMON: From the parallel-xbox core's copy: retro_spsc pair writes, two-span borrowed reads and reservations; retro_mpsc, an intrusive multi-producer queue; retro_eventcount_init_lock_free; xxh3_64_pair; and RETRO_DISABLE_HOST_CLOCK with fixed spin counts for builds that must not read the host's clock",
@@ -15,6 +16,7 @@
     "VIDEO/THREADED: With V-Sync off, Display Pacing holds the core to the content's rate before the first frame is presented too; at content start or after a driver reinit a core ran hundreds or thousands of frames at once with audio sync off as well",
     "LIBRETRO-COMMON/FLAC: 24- and 32-bit FLAC decoded to 16 bits is rounded to the nearest step instead of cut down (every sample was half a step low on average); 16-bit FLAC is unchanged",
     "LIBRETRO-COMMON/FLAC: A seek in a FLAC that has a seek table lands on the frame asked for (it landed as far past it as the seek point was from the start); rflac_seek_point gives the seek point's frame",
+    "NETWORK: Conditions compare how far apart two addresses are (485 - 47e <= 32), STEPS takes stop becomes for a stop that fires only once it starts to hold, READ_CORE_MEMORY reads several ranges in one request, and WATCH counts its limit after the offs in a request",
     "VULKAN: Keep the pipeline cache on disk between runs, one file per GPU, so stock and slang shader pipelines are not recompiled by the driver on every launch, preset load or driver reinit",
     "NETPLAY/REPLAY: Record all players' resolved inputs in BSV replays, committing each frame and its checkpoints only after rollback confirmation",
     "AI/TRANSLATION: Fix for drawing translation overlay within viewport",
@@ -236,6 +238,10 @@
     "VIDEO/SWITCHRES: Game overrides",
     "VIDEO/VULKAN: Add VK_EXT_full_screen_exclusive extension support for Windows",
     "=== Änderungsverlauf (GitHub) ===",
+    "--- 19.11.2026 ---",
+    "+ Hinzugefügt: LIBRETRO-COMMON: gfx/shaders/spirv_words.h, the bottom of a SPIR-V writer and nothing above it: section buffers grown through the caller's own allocator, instructions written with one room check each, string literals, a one-move splice, and one join of the sections into the caller's storage. Header only and C89, with no lock and no global state. rslc writes its SPIR-V through it, word for word as before, and so can a core that makes SPIR-V from its own IR. rslc's function variables are spliced in with one move instead of a copy out and two copies back, and its module is joined straight into the blob's payload",
+    "--- 18.11.2026 ---",
+    "+ Hinzugefügt: NETWORK: Conditions compare how far apart two addresses are (485 - 47e <= 32), STEPS takes stop becomes for a stop that fires only once it starts to hold, READ_CORE_MEMORY reads several ranges in one request, and WATCH counts its limit after the offs in a request",
     "--- 17.11.2026 ---",
     "+ Hinzugefügt: LIBRETRO-COMMON: features_cpu.c and net_compat.c take retro_posix_source.h first, so a core that builds under a strict feature profile (mame2003-plus: -D_XOPEN_SOURCE=500) still sees clock_nanosleep and getaddrinfo instead of an implicit declaration, an error with GCC 14",
     "--- 17.11.2026 ---",
@@ -248,11 +254,11 @@
     "+ Hinzugefügt: LIBRETRO: VFS API v7 - cores can borrow a file's bytes instead of copying them (view), map a whole file read-only (map), ask which file a handle or path is (identity, stat_identity), what its volume is (volume, stat_volume: read-only, drive kind, mount) and seal or measure it with fs-verity on Linux and Android (verity_enable, verity_measure); libretro-common's filestream and the hybrid VFS take them, and answer \"can't be told\" under a frontend before v7",
     "+ Hinzugefügt: LIBRETRO-COMMON/VFS: On Linux, macOS and the BSDs a build without HAVE_MMAP (most cores) reads bulk and stable opens through the file descriptor too, as RetroArch already did, instead of through stdio"
   ],
-  "downloadedAt": "2026-11-17T11:55:09.439Z",
+  "downloadedAt": "2026-11-19T11:41:30.422Z",
   "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-26.zip",
-  "size": 189697699,
+  "size": 189698103,
   "extractedSize": 440414319,
   "installFiles": [
     "retroarch.jpg",
@@ -14442,6 +14448,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "8c0b4a79e64aa88ffe5d4851dc4be4b2",
-  "sha256": "c4b91b990f0e09c404080f8afb5040906fd8c0e63dc83d0dd9e8029433b1c4f9"
+  "md5": "42838445666e7a0eda7805c01f55fdc5",
+  "sha256": "ba3e9c42057c4bbf1749d8ce0f5fe7f2f6a25ad3776c2cffe9462861f3a03d0c"
 }
