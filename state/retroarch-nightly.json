@@ -3,6 +3,7 @@
   "version": "2026-10-26",
   "changelog": [
     "=== Future ===",
+    "LIBRETRO-COMMON: utf8_conv_utf16, UTF-8 into a caller's UTF-16 buffer with a character past U+FFFF as a surrogate pair, never past the input's size or the room given, and never half a pair: the counterpart of utf16_conv_utf8, for a core that hands UTF-16 text to the system it emulates (the parallel-ps4 core's on-screen keyboard)",
     "LIBRETRO-COMMON: gfx/shaders/spirv_words.h, the bottom of a SPIR-V writer and nothing above it: section buffers grown through the caller's own allocator, instructions written with one room check each, string literals, a one-move splice, and one join of the sections into the caller's storage. Header only and C89, with no lock and no global state. rslc writes its SPIR-V through it, word for word as before, and so can a core that makes SPIR-V from its own IR. rslc's function variables are spliced in with one move instead of a copy out and two copies back, and its module is joined straight into the blob's payload",
     "LIBRETRO-COMMON: features_cpu.c and net_compat.c take retro_posix_source.h first, so a core that builds under a strict feature profile (mame2003-plus: -D_XOPEN_SOURCE=500) still sees clock_nanosleep and getaddrinfo instead of an implicit declaration, an error with GCC 14",
     "LIBRETRO-COMMON: retro_atomic.h declares its inline helpers with its own RETRO_ATOMIC_INLINE instead of INLINE, so a core that defines INLINE itself (FBNeo, as \"__inline static\") compiles again in C++: since VFS v6 every file that includes file_stream.h reaches retro_atomic.h through vfs.h",
@@ -238,6 +239,8 @@
     "VIDEO/SWITCHRES: Game overrides",
     "VIDEO/VULKAN: Add VK_EXT_full_screen_exclusive extension support for Windows",
     "=== Änderungsverlauf (GitHub) ===",
+    "--- 20.11.2026 ---",
+    "+ Hinzugefügt: LIBRETRO-COMMON: utf8_conv_utf16, UTF-8 into a caller's UTF-16 buffer with a character past U+FFFF as a surrogate pair, never past the input's size or the room given, and never half a pair: the counterpart of utf16_conv_utf8, for a core that hands UTF-16 text to the system it emulates (the parallel-ps4 core's on-screen keyboard)",
     "--- 19.11.2026 ---",
     "+ Hinzugefügt: LIBRETRO-COMMON: gfx/shaders/spirv_words.h, the bottom of a SPIR-V writer and nothing above it: section buffers grown through the caller's own allocator, instructions written with one room check each, string literals, a one-move splice, and one join of the sections into the caller's storage. Header only and C89, with no lock and no global state. rslc writes its SPIR-V through it, word for word as before, and so can a core that makes SPIR-V from its own IR. rslc's function variables are spliced in with one move instead of a copy out and two copies back, and its module is joined straight into the blob's payload",
     "--- 18.11.2026 ---",
@@ -254,11 +257,11 @@
     "+ Hinzugefügt: LIBRETRO: VFS API v7 - cores can borrow a file's bytes instead of copying them (view), map a whole file read-only (map), ask which file a handle or path is (identity, stat_identity), what its volume is (volume, stat_volume: read-only, drive kind, mount) and seal or measure it with fs-verity on Linux and Android (verity_enable, verity_measure); libretro-common's filestream and the hybrid VFS take them, and answer \"can't be told\" under a frontend before v7",
     "+ Hinzugefügt: LIBRETRO-COMMON/VFS: On Linux, macOS and the BSDs a build without HAVE_MMAP (most cores) reads bulk and stable opens through the file descriptor too, as RetroArch already did, instead of through stdio"
   ],
-  "downloadedAt": "2026-11-19T11:41:30.422Z",
+  "downloadedAt": "2026-11-21T11:02:54.615Z",
   "updated": "26/10/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
   "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-10-26.zip",
-  "size": 189698103,
+  "size": 189698250,
   "extractedSize": 440414319,
   "installFiles": [
     "retroarch.jpg",
@@ -14448,6 +14451,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "42838445666e7a0eda7805c01f55fdc5",
-  "sha256": "ba3e9c42057c4bbf1749d8ce0f5fe7f2f6a25ad3776c2cffe9462861f3a03d0c"
+  "md5": "cb02f0636c9353127f106b7d263a7939",
+  "sha256": "185bae9dbf027790c1746ce84d7f752727443a7c289b8838e121ea1980971b88"
 }
