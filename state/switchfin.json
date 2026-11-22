@@ -1,28 +1,25 @@
 {
   "id": "switchfin",
-  "version": "0.9.5",
+  "version": "0.9.6",
   "changelog": [
     "Added",
-    "add resume download with HTTP range/ETag support and progress bar for cancelled items",
-    "auto-download subtitles and fallback subtitle URL when `DeliveryUrl` is missing",
-    "add configurable download path setting",
+    "episodes: show duration beside episode titles (#286) @txemaleon",
+    "movie: show runtime and estimated end time (#285) @txemaleon",
+    "gallery: browse images with L/R paging, zoom (buttons or pinch) and drag to pan",
     "Fixed",
-    "support the new Quick Connect API (#272)",
-    "PS4: fix bitmap subtitle bluescreen (#271)",
-    "image: keep texture owned by cache and trim near-white border bars causing smears (#243)",
-    "websocket: harden receive loop, reconnect on normal close and fix teardownt",
-    "compare versions numerically in update check",
-    "keep nvtegra decode frames alive across hwaccel reinit",
-    "svg: fix crash when toggling fullscreen on macOS (#165)",
-    "danmaku: reset on-screen danmaku after seeking to prevent overlap (#163)",
-    "![download](https://img.shields.io/github/downloads/dragonflylee/switchfin/0.9.5/total?label=Downloads)"
+    "image: fix crash from revived callbacks of cancelled requests",
+    "ebook: reuse borealis fonts in MuPDF to reduce binary size and share font memory",
+    "remote: reload in place after editing, skip the test when unchanged",
+    "player: keep progress slider pointer in sync with the finger while dragging",
+    "websocket: abort blocking receive on exit so teardown no longer hangs the app",
+    "![download](https://img.shields.io/github/downloads/dragonflylee/switchfin/0.9.6/total?label=Downloads)"
   ],
-  "downloadedAt": "2026-11-11T10:56:59.599Z",
-  "updated": "10/11/2026",
-  "sourceUrl": "https://github.com/dragonflylee/switchfin/releases/download/0.9.5/Switchfin.nro",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin/switchfin-0.9.5.zip",
-  "size": 42359470,
-  "extractedSize": 67764699,
+  "downloadedAt": "2026-11-22T11:26:11.456Z",
+  "updated": "21/11/2026",
+  "sourceUrl": "https://github.com/dragonflylee/switchfin/releases/download/0.9.6/Switchfin.nro",
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/switchfin/switchfin-0.9.6.zip",
+  "size": 17378191,
+  "extractedSize": 34532235,
   "installFiles": [
     "switch/Switchfin/Switchfin.nro"
   ],
@@ -31,6 +28,6 @@
   ],
   "finalized": true,
   "buildKey": "5ad03c61d858d1b2c32201e438dbbd814936d98942db24bd0ace1bfb3fd67dc5",
-  "md5": "489c79e577569e5bfa1530dbbd92812f",
-  "sha256": "ca4c89fbb2c5f025485044da4961d0aa0d3e261ffb3ac6b1ba338867a5dc3f78"
+  "md5": "83938df5b65ba88e82785e39d249c46f",
+  "sha256": "38bd4f16cf8578ecdf8ddf390d03dbf5e94c1370fc3afc47e954d03453cd7d26"
 }
