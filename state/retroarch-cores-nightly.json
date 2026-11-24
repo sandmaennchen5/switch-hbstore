@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-11-23",
+  "version": "2026-11-24",
   "changelog": [
     "LIBRETRO-COMMON: time/rtime.h gains the proleptic Gregorian calendar, inline and pure: rtime_days_from_civil, rtime_civil_from_days, rtime_is_leap_year, rtime_days_in_month and rtime_weekday. rtime.c, crypto/x509.c and net/net_krb5.c each kept a copy of Howard Hinnant's algorithms and now use these, with the same results (checked against the copies on 246 million dates). For the parallel-ps4 core's libSceRtc",
     "LIBRETRO-COMMON: rjpeg_encode_blocks, the JPEG encoder taking its samples a block at a time from the caller, so a picture in any layout (RGB, packed YUV) is encoded where it lies with no planes made of it; it also writes greyscale as one component and restart markers. rjpeg_encode writes the same bytes as before, through the same coder (for the parallel-ps4 core's libSceJpegEnc)",
@@ -149,12 +149,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-11-23T12:38:52.458Z",
-  "updated": "23/11/2026",
+  "downloadedAt": "2026-11-24T13:45:06.736Z",
+  "updated": "24/11/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-11-23.zip",
-  "size": 1248569012,
-  "extractedSize": 3337547699,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-11-24.zip",
+  "size": 1248721978,
+  "extractedSize": 3337818927,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -345,6 +345,7 @@
     "retroarch/info/mupen64plus_next_gles2_libretro.info",
     "retroarch/info/mupen64plus_next_gles3_libretro.info",
     "retroarch/info/mupen64plus_next_libretro.info",
+    "retroarch/info/my386_libretro.info",
     "retroarch/info/n64emu_libretro.info",
     "retroarch/info/native32emu_libretro.info",
     "retroarch/info/nekop2_libretro.info",
@@ -848,6 +849,7 @@
     "U: retroarch/info/mupen64plus_next_gles2_libretro.info",
     "U: retroarch/info/mupen64plus_next_gles3_libretro.info",
     "U: retroarch/info/mupen64plus_next_libretro.info",
+    "U: retroarch/info/my386_libretro.info",
     "U: retroarch/info/n64emu_libretro.info",
     "U: retroarch/info/native32emu_libretro.info",
     "U: retroarch/info/nekop2_libretro.info",
@@ -1163,6 +1165,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "2b3b980cc76eb51ae2344422bdf33257",
-  "sha256": "dc54d0259ca1e2a01b4ac43343d3685dc669686d1f1e529d25121505fd09026c"
+  "md5": "241729dcae358a3fbd9f589f13a4f7e3",
+  "sha256": "34da8dcea628b083ed4c91e9e97e0510ba92d38c7816f72b5f175e4116f710fc"
 }
