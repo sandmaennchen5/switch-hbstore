@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-11-26",
+  "version": "2026-11-27",
   "changelog": [
     "=== Future ===",
     "LIBRETRO-COMMON: time/rtime.h gains the proleptic Gregorian calendar, inline and pure: rtime_days_from_civil, rtime_civil_from_days, rtime_is_leap_year, rtime_days_in_month and rtime_weekday. rtime.c, crypto/x509.c and net/net_krb5.c each kept a copy of Howard Hinnant's algorithms and now use these, with the same results (checked against the copies on 246 million dates). For the parallel-ps4 core's libSceRtc",
@@ -260,12 +260,12 @@
     "--- 17.11.2026 ---",
     "+ Hinzugefügt: LIBRETRO-COMMON/FILESTREAM: Under a VFS v7 frontend, filestream_get_mapped_ptr hands a core the frontend's mapping of a file it opened with the frequent-access hint, as it does without a frontend VFS; cores that read content in place from the mapping no longer copy it all under RetroArch"
   ],
-  "downloadedAt": "2026-11-26T12:35:24.010Z",
-  "updated": "26/11/2026",
+  "downloadedAt": "2026-11-27T12:21:22.971Z",
+  "updated": "27/11/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-11-26.zip",
-  "size": 198886706,
-  "extractedSize": 467733531,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-11-27.zip",
+  "size": 198872051,
+  "extractedSize": 467704859,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -14996,6 +14996,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "0ca7301445c6bf4f1a5886efed787be8",
-  "sha256": "0b5987aa2a3073cc9a70c7fd69a5a766df8644113b8e18d938bb754abc0a6baa"
+  "md5": "fa6d3459f076f8400c0c463bcd5b75f7",
+  "sha256": "79c3d1bd91277cfacb3230b52f8fc5e8acb163216746311431e68a086486412f"
 }

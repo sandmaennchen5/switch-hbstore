@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-11-26",
+  "version": "2026-11-27",
   "changelog": [
     "LIBRETRO-COMMON: time/rtime.h gains the proleptic Gregorian calendar, inline and pure: rtime_days_from_civil, rtime_civil_from_days, rtime_is_leap_year, rtime_days_in_month and rtime_weekday. rtime.c, crypto/x509.c and net/net_krb5.c each kept a copy of Howard Hinnant's algorithms and now use these, with the same results (checked against the copies on 246 million dates). For the parallel-ps4 core's libSceRtc",
     "LIBRETRO-COMMON: rjpeg_encode_blocks, the JPEG encoder taking its samples a block at a time from the caller, so a picture in any layout (RGB, packed YUV) is encoded where it lies with no planes made of it; it also writes greyscale as one component and restart markers. rjpeg_encode writes the same bytes as before, through the same coder (for the parallel-ps4 core's libSceJpegEnc)",
@@ -149,12 +149,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-11-26T12:34:45.491Z",
-  "updated": "26/11/2026",
+  "downloadedAt": "2026-11-27T12:20:38.609Z",
+  "updated": "27/11/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-11-26.zip",
-  "size": 1251779783,
-  "extractedSize": 3345470286,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-11-27.zip",
+  "size": 1251468251,
+  "extractedSize": 3344962382,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -1165,6 +1165,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "3fac62401c683c26c76663ad6e98c66e",
-  "sha256": "899519cf20ccd11fb87b7c9d3de0986afb223e8bc4e16c7175f492bb2b2f8b41"
+  "md5": "70bd438ac688969a8601cae495701402",
+  "sha256": "d4f4504eb2909ab7f4e3547ba06ccf62a66f04797cbfc747308c43ec3e81de24"
 }
