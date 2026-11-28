@@ -1,6 +1,6 @@
 {
   "id": "retroarch-nightly",
-  "version": "2026-11-27",
+  "version": "2026-11-28",
   "changelog": [
     "=== Future ===",
     "LIBRETRO-COMMON: time/rtime.h gains the proleptic Gregorian calendar, inline and pure: rtime_days_from_civil, rtime_civil_from_days, rtime_is_leap_year, rtime_days_in_month and rtime_weekday. rtime.c, crypto/x509.c and net/net_krb5.c each kept a copy of Howard Hinnant's algorithms and now use these, with the same results (checked against the copies on 246 million dates). For the parallel-ps4 core's libSceRtc",
@@ -260,12 +260,12 @@
     "--- 17.11.2026 ---",
     "+ Hinzugefügt: LIBRETRO-COMMON/FILESTREAM: Under a VFS v7 frontend, filestream_get_mapped_ptr hands a core the frontend's mapping of a file it opened with the frequent-access hint, as it does without a frontend VFS; cores that read content in place from the mapping no longer copy it all under RetroArch"
   ],
-  "downloadedAt": "2026-11-27T12:21:22.971Z",
-  "updated": "27/11/2026",
+  "downloadedAt": "2026-11-28T11:47:34.996Z",
+  "updated": "28/11/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-11-27.zip",
-  "size": 198872051,
-  "extractedSize": 467704859,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-nightly/retroarch-nightly-2026-11-28.zip",
+  "size": 198900424,
+  "extractedSize": 467756303,
   "installFiles": [
     "retroarch.jpg",
     "switch/retroarch_switch.nro",
@@ -4046,6 +4046,7 @@
     "retroarch/info/craft_libretro.info",
     "retroarch/info/crocods_libretro.info",
     "retroarch/info/cruzes_libretro.info",
+    "retroarch/info/cubspielecom_libretro.info",
     "retroarch/info/daphne_libretro.info",
     "retroarch/info/desmume2015_libretro.info",
     "retroarch/info/desmume_libretro.info",
@@ -4272,6 +4273,7 @@
     "retroarch/info/snes9x2005_plus_libretro.info",
     "retroarch/info/snes9x2010_libretro.info",
     "retroarch/info/snes9x_libretro.info",
+    "retroarch/info/snowfishemu_libretro.info",
     "retroarch/info/spmp8000emu_libretro.info",
     "retroarch/info/squirreljme_libretro.info",
     "retroarch/info/stella2014_libretro.info",
@@ -11410,6 +11412,7 @@
     "U: retroarch/info/craft_libretro.info",
     "U: retroarch/info/crocods_libretro.info",
     "U: retroarch/info/cruzes_libretro.info",
+    "U: retroarch/info/cubspielecom_libretro.info",
     "U: retroarch/info/daphne_libretro.info",
     "U: retroarch/info/desmume2015_libretro.info",
     "U: retroarch/info/desmume_libretro.info",
@@ -11636,6 +11639,7 @@
     "U: retroarch/info/snes9x2005_plus_libretro.info",
     "U: retroarch/info/snes9x2010_libretro.info",
     "U: retroarch/info/snes9x_libretro.info",
+    "U: retroarch/info/snowfishemu_libretro.info",
     "U: retroarch/info/spmp8000emu_libretro.info",
     "U: retroarch/info/squirreljme_libretro.info",
     "U: retroarch/info/stella2014_libretro.info",
@@ -14996,6 +15000,6 @@
   ],
   "finalized": true,
   "buildKey": "6e5fdc98d719765552e543ff0268bf284d22db3e20108cd38a9499a92d6b6a0e",
-  "md5": "fa6d3459f076f8400c0c463bcd5b75f7",
-  "sha256": "79c3d1bd91277cfacb3230b52f8fc5e8acb163216746311431e68a086486412f"
+  "md5": "3d870840c8257157e26cbc558118d581",
+  "sha256": "f731c5bd1cd0dd03770c2f2486474efab3e330da676afb8eae964a4faf46e2ef"
 }

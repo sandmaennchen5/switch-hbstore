@@ -1,6 +1,6 @@
 {
   "id": "retroarch-cores-nightly",
-  "version": "2026-11-27",
+  "version": "2026-11-28",
   "changelog": [
     "LIBRETRO-COMMON: time/rtime.h gains the proleptic Gregorian calendar, inline and pure: rtime_days_from_civil, rtime_civil_from_days, rtime_is_leap_year, rtime_days_in_month and rtime_weekday. rtime.c, crypto/x509.c and net/net_krb5.c each kept a copy of Howard Hinnant's algorithms and now use these, with the same results (checked against the copies on 246 million dates). For the parallel-ps4 core's libSceRtc",
     "LIBRETRO-COMMON: rjpeg_encode_blocks, the JPEG encoder taking its samples a block at a time from the caller, so a picture in any layout (RGB, packed YUV) is encoded where it lies with no planes made of it; it also writes greyscale as one component and restart markers. rjpeg_encode writes the same bytes as before, through the same coder (for the parallel-ps4 core's libSceJpegEnc)",
@@ -149,12 +149,12 @@
     "VIDEO/VULKAN: VK_EXT_full_screen_exclusive is now optional",
     "VFS: Add Samba share browse and load content (Windows file shares)"
   ],
-  "downloadedAt": "2026-11-27T12:20:38.609Z",
-  "updated": "27/11/2026",
+  "downloadedAt": "2026-11-28T11:46:58.360Z",
+  "updated": "28/11/2026",
   "sourceUrl": "https://buildbot.libretro.com/nightly/nintendo/switch/libnx/RetroArch.7z",
-  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-11-27.zip",
-  "size": 1251468251,
-  "extractedSize": 3344962382,
+  "archiveFile": "/home/runner/work/switch-hbstore/switch-hbstore/.cache/retroarch-cores-nightly/retroarch-cores-nightly-2026-11-28.zip",
+  "size": 1251893914,
+  "extractedSize": 3345574978,
   "installFiles": [
     "retroarch/info/00_example_libretro.info",
     "retroarch/info/2048_libretro.info",
@@ -209,6 +209,7 @@
     "retroarch/info/craft_libretro.info",
     "retroarch/info/crocods_libretro.info",
     "retroarch/info/cruzes_libretro.info",
+    "retroarch/info/cubspielecom_libretro.info",
     "retroarch/info/daphne_libretro.info",
     "retroarch/info/desmume2015_libretro.info",
     "retroarch/info/desmume_libretro.info",
@@ -435,6 +436,7 @@
     "retroarch/info/snes9x2005_plus_libretro.info",
     "retroarch/info/snes9x2010_libretro.info",
     "retroarch/info/snes9x_libretro.info",
+    "retroarch/info/snowfishemu_libretro.info",
     "retroarch/info/spmp8000emu_libretro.info",
     "retroarch/info/squirreljme_libretro.info",
     "retroarch/info/stella2014_libretro.info",
@@ -713,6 +715,7 @@
     "U: retroarch/info/craft_libretro.info",
     "U: retroarch/info/crocods_libretro.info",
     "U: retroarch/info/cruzes_libretro.info",
+    "U: retroarch/info/cubspielecom_libretro.info",
     "U: retroarch/info/daphne_libretro.info",
     "U: retroarch/info/desmume2015_libretro.info",
     "U: retroarch/info/desmume_libretro.info",
@@ -939,6 +942,7 @@
     "U: retroarch/info/snes9x2005_plus_libretro.info",
     "U: retroarch/info/snes9x2010_libretro.info",
     "U: retroarch/info/snes9x_libretro.info",
+    "U: retroarch/info/snowfishemu_libretro.info",
     "U: retroarch/info/spmp8000emu_libretro.info",
     "U: retroarch/info/squirreljme_libretro.info",
     "U: retroarch/info/stella2014_libretro.info",
@@ -1165,6 +1169,6 @@
   ],
   "finalized": true,
   "buildKey": "215c8c4b0d6666ac92dcfb3b5b1f55de9a554ea3e301fd75fb541ad7d8593e97",
-  "md5": "70bd438ac688969a8601cae495701402",
-  "sha256": "d4f4504eb2909ab7f4e3547ba06ccf62a66f04797cbfc747308c43ec3e81de24"
+  "md5": "c38fd5c2580c0a9c60ef9655221de135",
+  "sha256": "7a15bc4a756eaa9a06b6f9b9469c41c4701a00ee6b7b5e5cde4b3fdd537b2e2e"
 }
